@@ -58,32 +58,16 @@ __  __                              __  __
            
 Enter choice [1 - 5] 2
 # KringleCon III and Holiday Hack Challenge Code of Conduct
-1. Use the challenges here to have fun, explore, engage, and develop your cyber security s
-kills!
-2. Be kind! Feel free to encourage and help other players! Let Santa's elves (support@holi
-dayhackchallenge.com) know if something seems off. Please be mindful that there are childr
-en playing. Santa is watching!
-3. Please don't post full answers publicly until the official contest ends on Monday, Janu
-ary 4, 2021.
-4. SANS Holiday Hack strives to create an atmosphere of learning, growth, and community. W
-e value the participation and input, in this event and in the industry, of people of all g
-enders, sexual identities, cultures, socioeconomic backgrounds, races, ethnicities, nation
-alities, religions, and ages. Please support this atmosphere with respectful behavior and 
-speech. This applies to all online interactions associated with KringleCon and the Holiday
- Hack Challenge, including game chat and discussions.
+1. Use the challenges here to have fun, explore, engage, and develop your cyber security skills!
+2. Be kind! Feel free to encourage and help other players! Let Santa's elves (support@holidayhackchallenge.com) know if something seems off. Please be mindful that there are children playing. Santa is watching!
+3. Please don't post full answers publicly until the official contest ends on Monday, January 4, 2021.
+4. SANS Holiday Hack strives to create an atmosphere of learning, growth, and community. We value the participation and input, in this event and in the industry, of people of all genders, sexual identities, cultures, socioeconomic backgrounds, races, ethnicities, nationalities, religions, and ages. Please support this atmosphere with respectful behavior and speech. This applies to all online interactions associated with KringleCon and the Holiday Hack Challenge, including game chat and discussions.
 # KringleCon III and Holiday Hack Challenge Terms of Use
-1. This service includes a "group chat" component. We cannot make any guarantees about the
- accuracy, quality, or age-appropriateness of chat messages.
-2. All activity and interactions within Holiday Hack Challenge are monitored and recorded.
- We use this information to maintain an environment that is both safe and condusive to lea
-rning.
-3. Players should avoid engaging in techniques on any Holiday Hack Challenge server that m
-ay negatively affect the server's operational status and/or availability.
-4. Players must not attack Holiday Hack Challenge servers (*.holidayhackchallenge.com, *.k
-ringlecon.com, etc.) unless otherwise directed. If you have any questions about target sco
-pe, please email: support@holidayhackchallenge.com.
-5. E-mail addresses collected will be used in accordance with the SANS Privacy Policy (htt
-ps://www.sans.org/privacy/).
+1. This service includes a "group chat" component. We cannot make any guarantees about the accuracy, quality, or age-appropriateness of chat messages.
+2. All activity and interactions within Holiday Hack Challenge are monitored and recorded. We use this information to maintain an environment that is both safe and condusive to learning.
+3. Players should avoid engaging in techniques on any Holiday Hack Challenge server that may negatively affect the server's operational status and/or availability.
+4. Players must not attack Holiday Hack Challenge servers (*.holidayhackchallenge.com, *.kringlecon.com, etc.) unless otherwise directed. If you have any questions about target scope, please email: support@holidayhackchallenge.com.
+5. E-mail addresses collected will be used in accordance with the SANS Privacy Policy (https://www.sans.org/privacy/).
 
 Enter choice [1 - 5] 3
 Name:               Floor:      Room:
@@ -99,10 +83,10 @@ Wunorse Openslae    R           NetWars Room
 Shinny Upatree                  Front Lawn
 
 Enter choice [1 - 5] 4
-Enter your name (Please avoid special characters, they cause some weird errors)...Giga
- ______
-< Giga >
- ------
+Enter your name (Please avoid special characters, they cause some weird errors)...hello;/bin/bash
+ _______
+< hello >
+ -------
   \
    \   \_\_    _/_/
     \      \__/
@@ -110,38 +94,14 @@ Enter your name (Please avoid special characters, they cause some weird errors).
            (__)\       )\/\
                ||----w |
                ||     ||
-
-Enter choice [1 - 5] 4
-Enter your name (Please avoid special characters, they cause some weird errors)...`/bin/ba
-sh`
-shinny@dcfb28bd9562:~$ 
-shinny@dcfb28bd9562:~$ exit
-exit
- _________________________________________
-/ #####hhc:{"hash":                       \
-| "xxx",            |
-| "resourceId":                           |
-| "yyy"} |
-| ##### ___ _ / __| _ _ __ __ ___ ___ ___ |
-| | | \__ \ | +| | / _| / _| / -_) (_-<   |
-| (_-< |_| |___/ \_,_| \__|_ \__|_ \___|  |
-| /__/_ /__/_ _(_)_                       |
-| _|"""""|_|"""""|_|"""""|_|"""""|_|""""" |
-| |_|"""""|_|"""""|_| """ |               |
-| "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0- |
-| '"`-0-0-'"`-0-0-'"`-0-0-' Type 'exit'   |
-\ to return to the menu.                  /
- -----------------------------------------
-  \
-   \   \_\_    _/_/
-    \      \__/
-           (oo)\_______
-           (__)\       )\/\
-               ||----w |
-               ||     ||
+   ___                                                      _    
+  / __|   _  _     __      __      ___     ___     ___     | |   
+  \__ \  | +| |   / _|    / _|    / -_)   (_-<    (_-<     |_|   
+  |___/   \_,_|   \__|_   \__|_   \___|   /__/_   /__/_   _(_)_  
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_| """ | 
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
+Type 'exit' to return to the menu.
 ```
-
-/home/shinny/welcome.sh
 
 
 ## Investigate S3 Bucket
