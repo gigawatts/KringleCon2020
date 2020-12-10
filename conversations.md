@@ -1,5 +1,4 @@
 ## Jingle Ringford
-
 Welcome! Hop in the gondola to take a ride up the mountain to Exit 19: Santa's castle!
 
 Santa asked me to design the new badge, and he wanted it to look really cold - like it was frosty.
@@ -28,7 +27,6 @@ Great work with that! I'm sure you'll be able to help us with more challenges up
 
 
 ## Santa
-
 Hello and welcome to the North Pole!
 
 We’re super excited about this year’s KringleCon 3: French Hens.
@@ -38,6 +36,21 @@ My elves have been working all year to upgrade the castle.
 It was a HUGE construction project, and we’ve nearly completed it.
 
 Please pardon the remaining construction dust around the castle and enjoy yourselves!
+
+...
+
+## Jewel Loggins
+Welcome to the SANS Holiday Hack Challenge 2020! Have a great time!
+
+Be sure to join us on Discord!
+
+Remember, you can get hints for each of the objectives in your badge by clicking on elves.
+
+If you help elves solve their own technical terminal challenge, they’ll give you some ideas about how to approach the objectives.
+
+Oh, and if you see any odd objects lying around, walk over to them to pick them up!
+
+You might even find one as you approach the castle!
 
 ...
 
