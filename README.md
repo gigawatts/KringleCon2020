@@ -20,13 +20,18 @@ Write up for the 2020 SANS Holiday Hack Challenge, KringleCon 3
   * Phil - Stuffed Pikachu
   * Jerry - Trip to North Pole
 
-**Answer: proxmark**
+**Answer:** proxmark
 
 
 ## 02 - Investigate S3 Bucket 🎄🌲🌲🌲🌲
 *When you unwrap the over-wrapped file, what text string is inside the package? Talk to Shinny Upatree in front of the castle for hints on this challenge.*
 
-**Answer:**
+```
+base64 -d package | zcat | bzip2 -d | tar xf - > package.txt.Z.xz.xxd
+xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
+```
+
+**Answer:** North Pole: The Frostiest Place on Earth
 
 
 ## 03 - Point-of-Sale Password Recovery 🎄🌲🌲🌲🌲
