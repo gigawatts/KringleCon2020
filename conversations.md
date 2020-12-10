@@ -40,3 +40,19 @@ It was a HUGE construction project, and we’ve nearly completed it.
 Please pardon the remaining construction dust around the castle and enjoy yourselves!
 
 ...
+
+
+## Shinny Upatree
+Hiya hiya - I'm Shinny Upatree!
+
+Check out this cool KringleCon kiosk!
+
+You can get a map of the castle, learn about where the elves are, and get your own badge printed right on-screen!
+
+Be careful with that last one though. I heard someone say it's "ingestible." Or something...
+
+Do you think you could check and see if there is an issue?
+
+...
+
+
