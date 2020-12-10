@@ -9,10 +9,11 @@ Write up for the 2020 SANS Holiday Hack Challenge, KringleCon 3
 ## 01 - Uncover Santa's Gift List 🎄🌲🌲🌲🌲
 *There is a photo of Santa's Desk on that billboard with his personal gift list. What gift is Santa planning on getting Josh Wright for the holidays? Talk to Jingle Ringford at the bottom of the mountain for advice.*
 
+* https://2020.kringlecon.com/textures/billboard.png
 * Using GIMP and the perspective tool to straighten out the image, then the warp transform tool (swirl clockwise) to un-twist the image
   * ?an - OU Jersey
-  * ??remy - Blanket
-  * Brian - 
+  * ?remy - Blanket
+  * Brian - ?
   * Josh Wright - proxmark
   * Clay - Darth Vader Suit
   * Tad - Holiday Lights
