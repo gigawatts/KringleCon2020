@@ -68,4 +68,36 @@ Do you think you could check and see if there is an issue?
 
 ...
 
+Golly - wow! You sure found the flaw for us!
 
+Say, we've been having an issue with an Amazon S3 bucket.
+
+Do you think you could help find Santa's package file?
+
+Jeepers, it seems there's always a leaky bucket in the news. You'd think we could find our own files!
+
+Digininja has a great guide, if you're new to S3 searching.
+
+He even released a tool for the task - what a guy!
+
+The package wrapper Santa used is reversible, but it may take you some trying.
+
+Good luck, and thanks for pitching in!
+
+...
+
+
+## Pepper Minstix
+Howdy - Pepper Minstix here!
+
+I've been playing with tmux lately, and golly it's useful.
+
+Problem is: I somehow became detached from my session.
+
+Do you think you could get me back to where I was, admiring a beautiful bird?
+
+If you find it handy, there's a tmux cheat sheet you can use as a reference.
+
+I hope you can help!
+
+...
