@@ -117,41 +117,7 @@ elf@12c5004bf984:~$ cat TIPS
 elf@12c5004bf984:~$ cd bucket_finder/
 elf@12c5004bf984:~/bucket_finder$ ls
 README  bucket_finder.rb  wordlist
-elf@12c5004bf984:~/bucket_finder$ cat README 
-Bucket Finder
-=============
 
-Copyright(c) 2011, Robin Wood <robin@digininja.org>
-
-This project goes alongside my blog post "Whats In Amazon's Buckets?"
-http://www.digininja.org/blog/whats_in_amazons_buckets.php , read through that
-for more information on what is going on behind the scenes.
-
-This is a fairly simple tool to run, all it requires is a wordlist and it will
-go off and check each word to see if that bucket name exists in the Amazon's
-S3 system. Any that it finds it will check to see if the bucket is public,
-private or a redirect.
-
-Public buckets are checked for directory indexing being enabled, if it is then
-all files listed will be checked using HEAD to see if they are public or private.
-Redirects are followed and the final destination checked. All this is reported
-on so you can later go through and analyse what has been found.
-
-Version
-=======
-1.0 - Release
-1.1 - Added logging to file
-
-Installation
-============
-I don't think it needs anything more than the built in modules so you shouldn't
-need to install any gems. Just grab the file, make it executable and run it.
-
-I've tested it in Ruby 1.8.7 and 1.9.1 so there should be no problems with versions.
-
-Usage
-=====
-elf@12c5004bf984:~/bucket_finder$  
 elf@12c5004bf984:~/bucket_finder$ cat README
 Bucket Finder
 =============
