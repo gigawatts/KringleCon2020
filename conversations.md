@@ -41,6 +41,20 @@ It was a HUGE construction project, and we’ve nearly completed it.
 Please pardon the remaining construction dust around the castle and enjoy yourselves!
 
 ...
+
+Welcome to my newly upgraded castle!
+
+Also, check out that big portrait behind me!
+
+I received it in the mail a couple of weeks ago – a wonderful house warming present from an anonymous admirer.
+
+Gosh, I wonder who sent it. I’m so thankful for the gift!
+
+Please feel free to explore my upgraded castle and enjoy the KringleCon talks upstairs.
+
+You can get there through my new Santavator!
+
+...
 </details>
 
 ## Jewel Loggins
@@ -126,4 +140,33 @@ Once you have a few, try using them to split, redirect, and color the Super Sant
 You need to power the red, yellow, and green receivers with the right color light!
 
 ...
+</details>
+
+
+## Piney Sappington
+<details><summary>Click to expand</summary>
+Psssst!
+
+Hey you! Yes YOU!
+
+I’ve gotta tell you something, but you gotta keep it on the down-low.
+
+Santa has been behaving VERY strangely over the past couple of weeks.
+
+He has delayed certain projects, cancelled others, and even messed around with our technical infrastructure.
+
+There’s rumors among the elves that something has gone wrong with Santa.
+
+I can’t say any more – he might hear!
+
+...
+
+</details>
+
+
+## Template
+<details><summary>Click to expand</summary>
+```
+template
+```
 </details>
