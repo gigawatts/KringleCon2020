@@ -1,4 +1,5 @@
 ## Jingle Ringford
+<details><summary>Click to expand</summary>
 Welcome! Hop in the gondola to take a ride up the mountain to Exit 19: Santa's castle!
 
 Santa asked me to design the new badge, and he wanted it to look really cold - like it was frosty.
@@ -24,9 +25,11 @@ It also helps to select the correct twirly area.
 Great work with that! I'm sure you'll be able to help us with more challenges up at the castle!
 
 ...
+</details>
 
 
 ## Santa
+<details><summary>Click to expand</summary>
 Hello and welcome to the North Pole!
 
 We’re super excited about this year’s KringleCon 3: French Hens.
@@ -38,8 +41,10 @@ It was a HUGE construction project, and we’ve nearly completed it.
 Please pardon the remaining construction dust around the castle and enjoy yourselves!
 
 ...
+</details>
 
 ## Jewel Loggins
+<details><summary>Click to expand</summary>
 Welcome to the SANS Holiday Hack Challenge 2020! Have a great time!
 
 Be sure to join us on Discord!
@@ -53,9 +58,11 @@ Oh, and if you see any odd objects lying around, walk over to them to pick them 
 You might even find one as you approach the castle!
 
 ...
+</details>
 
 
 ## Shinny Upatree
+<details><summary>Click to expand</summary>
 Hiya hiya - I'm Shinny Upatree!
 
 Check out this cool KringleCon kiosk!
@@ -85,9 +92,11 @@ The package wrapper Santa used is reversible, but it may take you some trying.
 Good luck, and thanks for pitching in!
 
 ...
+</details>
 
 
 ## Pepper Minstix
+<details><summary>Click to expand</summary>
 Howdy - Pepper Minstix here!
 
 I've been playing with tmux lately, and golly it's useful.
@@ -101,3 +110,4 @@ If you find it handy, there's a tmux cheat sheet you can use as a reference.
 I hope you can help!
 
 ...
+</details>
