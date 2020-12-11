@@ -109,7 +109,7 @@ Enter your name (Please avoid special characters, they cause some weird errors).
 _|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_| """ | 
 "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
 Type 'exit' to return to the menu.
-
+```
 </details>
 
 
