@@ -1,4 +1,6 @@
-## Kringle Kiosk 
+## Kringle Kiosk
+<details><summary>Click to expand</summary>
+
 challenge=shell
 ```
 Welcome to our castle, we're so glad to have you with us!
@@ -102,6 +104,7 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_| """ |
 "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
 Type 'exit' to return to the menu.
 ```
+</details>
 
 
 ## Investigate S3 Bucket
