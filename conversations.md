@@ -166,6 +166,28 @@ I can’t say any more – he might hear!
 </details>
 
 
+## Ribb Bonbowford
+<details><summary>Click to expand</summary>
+Hello - my name is Ribb Bonbowford. Nice to meet you!
+
+Are you new to programming? It's a handy skill for anyone in cyber security.
+
+This challenge centers around JavaScript. Take a look at this intro and see how far it gets you!
+
+Ready to move beyond elf commands? Don't be afraid to mix in native JavaScript.
+
+Trying to extract only numbers from an array? Have you tried to filter?
+
+Maybe you need to enumerate an object's keys and then filter?
+
+Getting hung up on number of lines? Maybe try to minify your code.
+
+Is there a way to push array items to the beginning of an array? Hmm...
+
+...
+</details>
+
+
 ## Template
 <details><summary>Click to expand</summary>
 
