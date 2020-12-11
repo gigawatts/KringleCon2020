@@ -86,6 +86,10 @@ Holly Evergreen     1           Kitchen
 Wunorse Openslae    R           NetWars Room
 Shinny Upatree                  Front Lawn
 
+```
+
+Solution:
+```
 Enter choice [1 - 5] 4
 Enter your name (Please avoid special characters, they cause some weird errors)...hello;/bin/bash
  _______
@@ -105,7 +109,7 @@ Enter your name (Please avoid special characters, they cause some weird errors).
 _|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_| """ | 
 "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
 Type 'exit' to return to the menu.
-```
+
 </details>
 
 
@@ -128,7 +132,7 @@ README  bucket_finder.rb  wordlist
 
 Usage: https://digi.ninja/projects/bucket_finder.php
 
-Solution in [Objectives](objectives.md#02---investigate-s3-bucket-)
+Solution in [Objective 02](objectives.md#02---investigate-s3-bucket-)
 
 
 ## Unescape Tmux
@@ -140,3 +144,9 @@ Can you help me?
 I was playing with my birdie (she's a Green Cheek!) in something called **tmux**,
 then I did something and it disappeared!
 Can you help me find her? We were so **attach**ed!!
+
+Solution:
+```
+tmux list-sessions
+tmux attach
+```
