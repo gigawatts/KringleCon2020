@@ -120,4 +120,5 @@ README  bucket_finder.rb  wordlist
 ```
 
 Usage: https://digi.ninja/projects/bucket_finder.php
-Solution in [Objectives](README.md#02 - Investigate S3 Bucket)
+
+Solution in [Objectives](objectives.md#02---investigate-s3-bucket-)
