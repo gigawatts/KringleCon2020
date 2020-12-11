@@ -46,6 +46,8 @@ Welcome to my newly upgraded castle!
 
 Also, check out that big portrait behind me!
 
+https://www.holidayhackchallenge.com/2020/assets/img/santa_portrait.jpg
+
 I received it in the mail a couple of weeks ago – a wonderful house warming present from an anonymous admirer.
 
 Gosh, I wonder who sent it. I’m so thankful for the gift!
