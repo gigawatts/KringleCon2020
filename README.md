@@ -27,6 +27,7 @@ Write up for the 2020 SANS Holiday Hack Challenge, KringleCon 3
 *When you unwrap the over-wrapped file, what text string is inside the package? Talk to Shinny Upatree in front of the castle for hints on this challenge.*
 
 ```
+cd bucket_finder/; echo "wrapper3000" >> wordlist; ./bucket_finder.rb wordlist --download; cd wrapper3000/
 base64 -d package | zcat | bzip2 -d | tar xf - > package.txt.Z.xz.xxd
 xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
 ```
