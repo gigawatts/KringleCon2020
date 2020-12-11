@@ -1,6 +1,8 @@
 ## Kringle Kiosk
 <details><summary>Click to expand</summary>
 
+Hints: [Shinny Upatree](conversations.md#shinny-upatree)
+
 challenge=shell
 ```
 Welcome to our castle, we're so glad to have you with us!
@@ -109,6 +111,8 @@ Type 'exit' to return to the menu.
 
 ## Investigate S3 Bucket
 challenge=awsbucket
+
+Hints: [Shinny Upatree](conversations.md#shinny-upatree)
 ```
 elf@12c5004bf984:~$ cat TIPS
 # TIPS
@@ -125,3 +129,14 @@ README  bucket_finder.rb  wordlist
 Usage: https://digi.ninja/projects/bucket_finder.php
 
 Solution in [Objectives](objectives.md#02---investigate-s3-bucket-)
+
+
+## Unescape Tmux
+challenge=tmux
+
+Hints: [Pepper Minstix](conversations.md#pepper-minstix)
+
+Can you help me?
+I was playing with my birdie (she's a Green Cheek!) in something called **tmux**,
+then I did something and it disappeared!
+Can you help me find her? We were so **attach**ed!!
