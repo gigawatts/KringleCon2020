@@ -166,7 +166,7 @@ I can’t say any more – he might hear!
 
 ## Template
 <details><summary>Click to expand</summary>
-```
+
 template
-```
+
 </details>
