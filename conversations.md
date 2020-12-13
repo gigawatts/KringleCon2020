@@ -1,5 +1,17 @@
+# Conversations
+* [Jingle Ringford](#jingle-ringford)
+* [Santa](#santa)
+* [Jewel Loggins](#jewel-loggins)
+* [Shinny Upatree](#shinny-upatree)
+* [Pepper Minstix](#pepper-minstix)
+* [Piney Sappington](#piney-sappington)
+* [Ribb Bonbowford](#ribb-bonbowford)
+* [Sparkle Redberry](#sparkle-redberry)
+* [Ginger Breddie](#ginger-breddie)
+* [](#)
+
+
 ## Jingle Ringford
-<details><summary>Click to expand</summary>
 Welcome! Hop in the gondola to take a ride up the mountain to Exit 19: Santa's castle!
 
 Santa asked me to design the new badge, and he wanted it to look really cold - like it was frosty.
@@ -25,11 +37,9 @@ It also helps to select the correct twirly area.
 Great work with that! I'm sure you'll be able to help us with more challenges up at the castle!
 
 ...
-</details>
 
 
 ## Santa
-<details><summary>Click to expand</summary>
 Hello and welcome to the North Pole!
 
 We’re super excited about this year’s KringleCon 3: French Hens.
@@ -57,10 +67,8 @@ Please feel free to explore my upgraded castle and enjoy the KringleCon talks up
 You can get there through my new Santavator!
 
 ...
-</details>
 
 ## Jewel Loggins
-<details><summary>Click to expand</summary>
 Welcome to the SANS Holiday Hack Challenge 2020! Have a great time!
 
 Be sure to join us on Discord!
@@ -74,11 +82,9 @@ Oh, and if you see any odd objects lying around, walk over to them to pick them 
 You might even find one as you approach the castle!
 
 ...
-</details>
 
 
 ## Shinny Upatree
-<details><summary>Click to expand</summary>
 Hiya hiya - I'm Shinny Upatree!
 
 Check out this cool KringleCon kiosk!
@@ -108,11 +114,10 @@ The package wrapper Santa used is reversible, but it may take you some trying.
 Good luck, and thanks for pitching in!
 
 ...
-</details>
+
 
 
 ## Pepper Minstix
-<details><summary>Click to expand</summary>
 Howdy - Pepper Minstix here!
 
 I've been playing with tmux lately, and golly it's useful.
@@ -142,11 +147,10 @@ Once you have a few, try using them to split, redirect, and color the Super Sant
 You need to power the red, yellow, and green receivers with the right color light!
 
 ...
-</details>
+
 
 
 ## Piney Sappington
-<details><summary>Click to expand</summary>
 Psssst!
 
 Hey you! Yes YOU!
@@ -163,11 +167,10 @@ I can’t say any more – he might hear!
 
 ...
 
-</details>
+
 
 
 ## Ribb Bonbowford
-<details><summary>Click to expand</summary>
 Hello - my name is Ribb Bonbowford. Nice to meet you!
 
 Are you new to programming? It's a handy skill for anyone in cyber security.
@@ -191,12 +194,31 @@ Wow - are you a JavaScript developer? Great work!
 Hey, you know, you might use your JavaScript and HTTP manipulation skills to take a crack at bypassing the Santavator's S4.
 
 ...
-</details>
 
 
-## Template
-<details><summary>Click to expand</summary>
+## Sparkle Redberry
+Hey hey, Sparkle Redberry here!
 
-template
+The Santavator is on the fritz. Something with the wiring is grinchy, but maybe you can rig something up?
 
-</details>
+Here's the key! Good luck!
+
+On another note, I heard Santa say that he was thinking of canceling KringleCon this year!
+
+At first, I thought it was a joke, but he seemed serious. I’m glad he changed his mind.
+
+Have you had a chance to look at the Santavator yet?
+
+With that key, you can look under the panel and see the Super Santavator Sparkle Stream (S4).
+
+To get to different floors, you'll need to power the various colored receivers.
+
+... There MAY be a way to bypass the S4 stream.
+
+...
+
+
+## Ginger Breddie
+Hey, I heard from some of the other elves that there's some really crazy things going on with floor one and a half.
+
+...
