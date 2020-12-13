@@ -185,6 +185,12 @@ Getting hung up on number of lines? Maybe try to minify your code.
 Is there a way to push array items to the beginning of an array? Hmm...
 
 ...
+
+Wow - are you a JavaScript developer? Great work!
+
+Hey, you know, you might use your JavaScript and HTTP manipulation skills to take a crack at bypassing the Santavator's S4.
+
+...
 </details>
 
 
