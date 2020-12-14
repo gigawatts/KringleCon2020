@@ -841,3 +841,42 @@ Those tweaks you made to the sled just don’t seem right to me.
 I can’t figure out what’s wrong, but maybe you can check it out to fix it.
 
 ...
+
+
+## Minty Candycane to Santa
+* Location: Workshop
+Hey there Santa!
+
+I'm working on this regex Present Sorter and making great progress! It's still not quite right though.
+
+I found a [regular expression cheat sheet](https://www.debuggex.com/cheatsheet/regex/javascript) that helps a lot!
+
+Oh and [this regex test interface](https://regex101.com/) has been amazing for testing my adjustments.
+
+Santa, I thought we were limiting access to the room next door with the HID reader.
+
+I thought I should let you know.
+
+Some of the elves in the Great Room are analyzing some issues using Splunk.
+
+I watched the [intro to SOC operations and threat hunting talk](https://www.youtube.com/watch?v=qbIhHhRKQCw) from last year to get ready.
+
+What a great idea to invite Dave Herrald to talk about [tracking adversary emulation](https://www.youtube.com/watch?v=RxVgEFt08kU) in Splunk!
+
+And thank you for the tip on [Cyber Chef](https://gchq.github.io/CyberChef/) for decoding and decrypting data!
+
+...
+
+
+## Noel Boetie to Santa
+* Location: Wrapping Room
+
+Welcome to the Wrapping Room, Santa!
+
+The tag generator is acting up.
+
+I feel like the issue has something to do with weird files being uploaded.
+
+Can you help me figure out what's wrong?
+
+...
