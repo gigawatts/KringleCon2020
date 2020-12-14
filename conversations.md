@@ -8,7 +8,10 @@
 * [Ribb Bonbowford](#ribb-bonbowford)
 * [Sparkle Redberry](#sparkle-redberry)
 * [Ginger Breddie](#ginger-breddie)
-* [](#)
+* [Chimney Scissorsticks](#chimney-scissorsticks)
+* [Bow Ninecandle](#bow-ninecandle)
+* [Jack Frost](#jack-frost)
+* [Bushy Evergreen](#bushy-evergreen)
 
 
 ## Jingle Ringford
@@ -220,5 +223,51 @@ To get to different floors, you'll need to power the various colored receivers.
 
 ## Ginger Breddie
 Hey, I heard from some of the other elves that there's some really crazy things going on with floor one and a half.
+
+...
+
+
+## Chimney Scissorsticks
+* [Terminal: Greeting Cards](terminals.md#greeting-cards)
+Hello hello, I'm Chimney Scissorsticks!
+
+Feel free to use this greeting card generator to create some holiday messages which you can share online!
+
+It's based closely on the code used in the Tag Generator - in the wrapping room.
+
+I hear that one's having some issues, but this one seems A-OK.
+
+...
+
+
+## Bow Ninecandle
+You know what Santa just told me?
+
+He said he thought of yet another marketing pitch for the North Pole.
+
+He wants to call it, "The Frostiest Place on Earth!"
+
+What’s with that?
+
+...
+
+
+## Jack Frost
+Gosh, there's some really great talks.
+
+I'm getting all kinds of ideas for different modes of attack.
+
+...
+
+
+## Bushy Evergreen
+* [Terminal: Speaker UNPrep](terminals.md#speaker-unprep)
+Ohai! Bushy Evergreen, just trying to get this door open.
+
+It's running some Rust code written by Alabaster Snowball.
+
+I'm pretty sure the password I need for ./door is right in the executable itself.
+
+Isn't there a way to view the human-readable strings in a binary file?
 
 ...
