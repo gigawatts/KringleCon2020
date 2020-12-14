@@ -308,6 +308,19 @@ cat README.md
 grep PASSWORD main.js
 ```
 
+## 33.6kbps
+* [Conversation: Fitzy Shortstack](conversations.md#fitzy-shortstack)
+
+```
+Pick up handset
+Dial 'SKOUDIS' (756-8347)
+Click 'baa DEE brrr'
+Click 'aaah'
+Click 'WEWEWWRWRRWRR'
+Click 'beDURRdunditty'
+Click 'SCHHRRHHRTHRTR'
+```
+
 
 ## Greeting Cards
 * [Conversation: Chimney Scissorsticks](conversations.md##chimney-scissorsticks)
