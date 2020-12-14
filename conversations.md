@@ -319,7 +319,7 @@ Need more of a nudge? Check out Chris Elgee's talk on CAN traffic!
 
 
 ## Minty Candycane
-* Sort-O-Matic
+* [Terminal: Sort-O-Matic](terminals.md#sort-o-matic)
 
 Hey there, KringleCon attendee! I'm Minty Candycane!
 
@@ -334,6 +334,20 @@ You can find a regular expression cheat sheet [here](https://www.debuggex.com/ch
 You can use [this](https://regex101.com/) regex interpreter to test your regex against the required Sort-O-Matic patterns.
 
 Do you think you can help me fix it?
+
+...
+
+Great job! You make this look easy!
+
+Hey, have you tried the Splunk challenge?
+
+Are you newer to SOC operations? Maybe check out his [intro talk](https://www.youtube.com/watch?v=qbIhHhRKQCw) from last year.
+
+Dave Herrald is doing a [great talk](https://www.youtube.com/watch?v=RxVgEFt08kU) on tracking adversary emulation through Splunk!
+
+Don't forget about useful tools including [Cyber Chef](https://gchq.github.io/CyberChef/) for decoding and decrypting data!
+
+It's down in the Great Room, but oh, they probably won't let an attendee operate it.
 
 ...
 
