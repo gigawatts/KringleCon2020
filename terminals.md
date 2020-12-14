@@ -1,7 +1,8 @@
 ## Kringle Kiosk
-<details><summary>Click to expand</summary>
-
+* Location: Castle Approach
 * [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
+
+<details><summary>Click to expand</summary>
 
 challenge=shell
 ```
@@ -131,6 +132,7 @@ xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
 
 
 ## Unescape Tmux
+* Location: Castle Approach
 * [Conversation: Pepper Minstix](conversations.md#pepper-minstix)
 
 challenge=tmux
@@ -147,7 +149,8 @@ tmux attach
 ```
 
 
-## Javascript Elf Game
+## The Elf Code
+* Location: Dining Room
 * [Conversation: Ribb Bonbowford](conversations.md#ribb-bonbowford)
 
 ### Level 1
@@ -249,6 +252,7 @@ challenge=regex
 ```
 
 ## Linux Primer
+* Location: Courtyard
 * [Conversation: Sugarplum Mary](conversations.md#sugarplum-mary)
 
 challenge=linux
@@ -285,6 +289,7 @@ exit
 ```
 
 ## Santa Shop
+* Location: Courtyard
 * [Conversation: Sugarplum Mary](conversations.md#sugarplum-mary)
 * [Objective 03](objectives.md#03---point-of-sale-password-recovery-)
 
@@ -320,6 +325,9 @@ Click 'WEWEWWRWRRWRR'
 Click 'beDURRdunditty'
 Click 'SCHHRRHHRTHRTR'
 ```
+
+## Splunk
+* Location: Great Room
 
 
 ## Greeting Cards
