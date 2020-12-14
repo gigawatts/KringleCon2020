@@ -17,6 +17,7 @@
 * [Minty Candycane](#minty-candycane)
 * [Tinsel Upatree](#tinsel-upatree)
 * [Bubble Lightington](#bubble-lightington)
+* [Sugarplum Mary](#sugarplum-mary)
 
 
 ## Jingle Ringford
