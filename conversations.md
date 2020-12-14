@@ -101,6 +101,7 @@ You might even find one as you approach the castle!
 
 
 ## Shinny Upatree
+* Location: Castle Approach
 * [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
 * [Terminal: Kringle Kiosk](terminals.md#kringle-kiosk)
 * [Terminal: Investigate S3 Bucket](terminals.md#investigate-s3-bucket)
@@ -256,6 +257,7 @@ Hey, I heard from some of the other elves that there's some really crazy things 
 
 
 ## Chimney Scissorsticks
+* Location: Talks Lobby
 * [Terminal: Greeting Cards](terminals.md#greeting-cards)
 
 Hello hello, I'm Chimney Scissorsticks!
@@ -270,6 +272,8 @@ I hear that one's having some issues, but this one seems A-OK.
 
 
 ## Bow Ninecandle
+* Location: Talks Lobby
+
 You know what Santa just told me?
 
 He said he thought of yet another marketing pitch for the North Pole.
@@ -282,11 +286,15 @@ What’s with that?
 
 
 ## Jack Frost
+* Location: Talks Lobby
+
 Gosh, there's some really great talks.
 
 I'm getting all kinds of ideas for different modes of attack.
 
 ...
+
+* Location: Roof / NetWars
 
 Hi, I'm Jack Frost!
 
@@ -306,6 +314,7 @@ Bwahahaha!
 
 
 ## Bushy Evergreen
+* Location: Talks Lobby
 * [Terminal: Speaker UNPrep](terminals.md#speaker-unprep)
 
 Ohai! Bushy Evergreen, just trying to get this door open.
@@ -320,6 +329,7 @@ Isn't there a way to view the human-readable strings in a binary file?
 
 
 ## Alabaster Snowball
+* Location: Roof / NetWars
 * [Terminal: Scapy Prepper](terminals.md#scapy-prepper)
 
 Welcome to the roof! Alabaster Snowball here.
@@ -334,6 +344,7 @@ If you get stuck, you can help() to see how to get tasks and hints.
 
 
 ## Wunorse Openslae
+* Location: Roof / NetWars
 * [Terminal: CAN-Bus Investigation](terminals.md#can-bus-investigation)
 
 Hiya hiya - I'm Wunorse Openslae!
@@ -354,6 +365,7 @@ Need more of a nudge? Check out Chris Elgee's talk on CAN traffic!
 
 
 ## Minty Candycane
+* Location: Workshop
 * [Terminal: Sort-O-Matic](terminals.md#sort-o-matic)
 
 Hey there, KringleCon attendee! I'm Minty Candycane!
@@ -388,7 +400,8 @@ It's down in the Great Room, but oh, they probably won't let an attendee operate
 
 
 ## Noel Boetie
-* [Terminal: Tag Generator]()
+* Location: Wrapping Room
+* [Terminal: Tag Generator](terminals.md#tag-generator)
 
 I'm Noel Boetie. Welcome to the Wrapping Room!
 
