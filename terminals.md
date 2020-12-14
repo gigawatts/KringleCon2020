@@ -122,7 +122,7 @@ challenge=awsbucket
 Usage: https://digi.ninja/projects/bucket_finder.php
 
 Solution:
-```
+```bash
 cd bucket_finder/; echo "wrapper3000" >> wordlist; ./bucket_finder.rb wordlist --download; cd wrapper3000/
 base64 -d package | zcat | bzip2 -d | tar xf - > package.txt.Z.xz.xxd
 xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
@@ -140,7 +140,7 @@ then I did something and it disappeared!
 Can you help me find her? We were so **attach**ed!!
 
 Solution:
-```
+```bash
 tmux list-sessions
 tmux attach
 ```
@@ -149,13 +149,13 @@ tmux attach
 * [Conversation: Ribb Bonbowford](conversations.md#ribb-bonbowford)
 
 ### Level 1
-```
+```javascript
 elf.moveTo(lollipop[0])
 elf.moveUp(10)
 ```
 
 ### Level 2 - Trigger The Yeeter
-```
+```javascript
 elf.moveLeft(6)
 elf.pull_lever(elf.get_lever(0) + 2)
 elf.moveLeft(4)
@@ -163,7 +163,7 @@ elf.moveUp(10)
 ```
 
 ## Level 3
-```
+```javascript
 elf.moveTo(lollipop[0])
 elf.moveTo(lollipop[1])
 elf.moveTo(lollipop[2])
@@ -171,7 +171,7 @@ elf.moveUp(1)
 ```
 
 ## Level 4 - Up Down Loopiness
-```
+```javascript
 for (var i = 0; i < 3; i++) {
   elf.moveLeft(3)
   elf.moveUp(13)
@@ -182,7 +182,7 @@ elf.moveUp(13)
 ```
 
 ## Level 5 - Move To Madness
-```
+```javascript
 var q = elf.ask_munch(0)
 var a = q.filter(elem => typeof elem === 'number')
 console.log(q + '\n' + a)
@@ -193,7 +193,7 @@ elf.moveUp(2)
 ```
 
 ### Level 6 - Two Paths, Your Choice
-```
+```javascript
 var obj = elf.ask_munch(0)
 var a = ""
 Object.keys(obj).forEach(function(k) {
