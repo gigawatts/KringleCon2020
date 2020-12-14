@@ -381,3 +381,30 @@ https://greeting-cards.kringlecastle.com/
 ## Tag Generator
 * Location: Wrapping Room
 * [Conversation: Noel Boetie](conversation.md#noel-boetie)
+
+
+## Snowball Fight
+* Location: Speaker UNPreparedness Room
+* Conversation: Tangle Coalbox
+
+challenge=santamode-snowball
+
+
+## Naughty/Nice List
+* Location: Santa's Office
+
+https://download.holidayhackchallenge.com/2020/blockchain.dat
+
+
+## ARP Shenanigans
+* Location: Roof / NetWars
+* Conversation: Alabaster Snowball
+
+challenge=santamode-arp
+
+
+## Sleigh CAN-D-Bus
+* Location: Roof / NetWars
+* Conversation: Wunorse Openslae
+
+challenge=candbus
