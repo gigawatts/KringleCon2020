@@ -15,6 +15,8 @@
 * [Alabaster Snowball](#alabaster-snowball)
 * [Wunorse Openslae](#wunorse-openslae)
 * [Minty Candycane](#minty-candycane)
+* [Tinsel Upatree](#tinsel-upatree)
+* [Bubble Lightington](#bubble-lightington)
 
 
 ## Jingle Ringford
@@ -269,6 +271,14 @@ Just hanging out here at The Frostiest Place on Earth.
 
 ...
 
+That's such a magnificent portrait of Santa in the foyer.
+
+What a great demonstration of artistic skill.
+
+Bwahahaha!
+
+...
+
 
 ## Bushy Evergreen
 * [Terminal: Speaker UNPrep](terminals.md#speaker-unprep)
@@ -362,5 +372,61 @@ We wrap presents and tag them for delivery here.
 Unfortunately, the tag generator is acting up.
 
 I'm hoping Santa can give me a hand nailing down that flaw.
+
+...
+
+
+## Tinsel Upatree
+GOSHGOLLY
+
+How did you get in here??
+
+I mean, hey, I'm impressed you made it in here, but you've got to leave!
+
+Breaking into Santa's office might mean immediate membership on the wrong side of the Naughty/Nice List.
+
+...
+
+
+## Bubble Lightington
+Santa doesn’t seem to be his kind self lately.
+
+It’s like something’s gotten into him.
+
+Must be stress.
+
+...
+
+
+## Sugarplum Mary
+* [Terminal: Linux Primer](terminals.md#linux-primer)
+
+Sugarplum Mary? That's me!
+
+I was just playing with this here terminal and learning some Linux!
+
+It's a great intro to the Bash terminal.
+
+If you get stuck at any point, type hintme to get a nudge!
+
+Can you make it to the end?
+
+...
+
+You did it - great! Maybe you can help me configure my postfix mail server on Gentoo!
+
+Just kidding!
+
+Hey, wouldja' mind helping me get into my point-of-sale terminal?
+
+It's down, and we kinda' need it running.
+
+Problem is: it is asking for a password. I never set one!
+
+Can you help me figure out what it is so I can get set up?
+
+Shinny says this might be an Electron application.
+
+I hear there's a way to extract an ASAR file from the binary, but I haven't looked into it yet.
 
 ...
