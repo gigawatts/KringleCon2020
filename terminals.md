@@ -116,23 +116,17 @@ Type 'exit' to return to the menu.
 ## Investigate S3 Bucket
 challenge=awsbucket
 
-Hints: [Shinny Upatree](conversations.md#shinny-upatree)
-```
-elf@12c5004bf984:~$ cat TIPS
-# TIPS
-- If you need an editor to create a file you can run nano (vim is also
-  available).
-- Everything you need to solve this challenge is provided in this terminal
-  session.
-  
-elf@12c5004bf984:~$ cd bucket_finder/
-elf@12c5004bf984:~/bucket_finder$ ls
-README  bucket_finder.rb  wordlist
-```
+* [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
+* [Objective 02](objectives.md#02---investigate-s3-bucket-)
 
 Usage: https://digi.ninja/projects/bucket_finder.php
 
-Solution in [Objective 02](objectives.md#02---investigate-s3-bucket-)
+Solution:
+```
+cd bucket_finder/; echo "wrapper3000" >> wordlist; ./bucket_finder.rb wordlist --download; cd wrapper3000/
+base64 -d package | zcat | bzip2 -d | tar xf - > package.txt.Z.xz.xxd
+xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
+```
 
 
 ## Unescape Tmux
@@ -286,6 +280,26 @@ kill $(ps -ef | grep -i munchkin | grep -v grep | awk '{print $2}')
 exit
 ```
 
+## Santa Shop
+challenge=
+
+* spin up a nodejs container and extract .asar file from .exe
+* find password in main.js
+
+```bash
+docker run -it --rm node /bin/bash
+apt update && apt install -f wget p7zip p7zip-full less
+npm install -g asar
+wget https://download.holidayhackchallenge.com/2020/santa-shop/santa-shop.exe
+mkdir extracted app source
+7z -oextracted/ x santa-shop.exe
+7z -oapp/ x extracted/\$PLUGINSDIR/app-64.7z
+asar list app/resources/app.asar
+asar extract app/resources/app.asar source
+rm -rf extracted app
+cat README.md
+grep PASSWORD main.js
+```
 
 
 ## Greeting Cards
