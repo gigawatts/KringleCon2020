@@ -250,6 +250,43 @@ challenge=regex
 ^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d$
 ```
 
+## Linux Primer
+* [Conversation: Sugarplum Mary](conversations.md#sugarplum-mary)
+
+challenge=linux
+
+The North Pole 🍭 Lollipop Maker:
+All the lollipops on this system have been stolen by munchkins. Capture munchkins by following instructions here and 🍭's will appear in the green bar below. Run the command "hintme" to receive a hint.
+
+```bash
+ls ~
+cat munchkin*
+rm munchkin*
+pwd
+ls -la
+rm .munchkin*
+history
+env | grep -i munch
+cd workshop/
+grep -i munch *
+chmod u+x lollipop_engine
+./lollipop_engine
+cd /home/elf/workshop/electrical
+mv blown_fuse0 fuse0
+ln -s fuse0 fuse1
+cp fuse1 fuse2
+echo "MUNCHKIN_REPELLENT" >> fuse2
+find /opt/munchkin_den/
+find /opt/munchkin_den/
+find /opt/munchkin_den/
+ps -ef| grep -i munch
+netstat -nlpt
+curl localhost:54321
+kill $(ps -ef | grep -i munchkin | grep -v grep | awk '{print $2}')
+exit
+```
+
+
 
 ## Greeting Cards
 https://greeting-cards.kringlecastle.com/
