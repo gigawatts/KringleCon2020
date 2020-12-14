@@ -18,6 +18,7 @@
 * [Tinsel Upatree](#tinsel-upatree)
 * [Bubble Lightington](#bubble-lightington)
 * [Sugarplum Mary](#sugarplum-mary)
+* [Fitzy Shortstack](#fitzy-shortstack)
 
 
 ## Jingle Ringford
@@ -429,5 +430,23 @@ Can you help me figure out what it is so I can get set up?
 Shinny says this might be an Electron application.
 
 I hear there's a way to extract an ASAR file from the binary, but I haven't looked into it yet.
+
+...
+
+
+## Fitzy Shortstack
+* [Terminal: Blue Phone](terminals.md#blue-phone)
+
+"Put it in the cloud," they said...
+
+"It'll be great," they said...
+
+All the lights on the Christmas trees throughout the castle are controlled through a remote server.
+
+We can shuffle the colors of the lights by connecting via dial-up, but our only modem is broken!
+
+Fortunately, I speak dial-up. However, I can't quite remember the [handshake sequence](https://upload.wikimedia.org/wikipedia/commons/3/33/Dial_up_modem_noises.ogg).
+
+Maybe you can help me out? The phone number is 756-8347; you can use this blue phone.
 
 ...
