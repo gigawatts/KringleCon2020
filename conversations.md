@@ -229,6 +229,7 @@ Hey, I heard from some of the other elves that there's some really crazy things 
 
 ## Chimney Scissorsticks
 * [Terminal: Greeting Cards](terminals.md#greeting-cards)
+
 Hello hello, I'm Chimney Scissorsticks!
 
 Feel free to use this greeting card generator to create some holiday messages which you can share online!
@@ -262,6 +263,7 @@ I'm getting all kinds of ideas for different modes of attack.
 
 ## Bushy Evergreen
 * [Terminal: Speaker UNPrep](terminals.md#speaker-unprep)
+
 Ohai! Bushy Evergreen, just trying to get this door open.
 
 It's running some Rust code written by Alabaster Snowball.
