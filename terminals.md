@@ -1,7 +1,7 @@
 ## Kringle Kiosk
 <details><summary>Click to expand</summary>
 
-Hints: [Shinny Upatree](conversations.md#shinny-upatree)
+* [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
 
 challenge=shell
 ```
@@ -114,10 +114,11 @@ Type 'exit' to return to the menu.
 
 
 ## Investigate S3 Bucket
-challenge=awsbucket
 
 * [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
 * [Objective 02](objectives.md#02---investigate-s3-bucket-)
+
+challenge=awsbucket
 
 Usage: https://digi.ninja/projects/bucket_finder.php
 
@@ -130,9 +131,9 @@ xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
 
 
 ## Unescape Tmux
-challenge=tmux
+* [Conversation: Pepper Minstix](conversations.md#pepper-minstix)
 
-Hints: [Pepper Minstix](conversations.md#pepper-minstix)
+challenge=tmux
 
 Can you help me?
 I was playing with my birdie (she's a Green Cheek!) in something called **tmux**,
@@ -144,6 +145,7 @@ Solution:
 tmux list-sessions
 tmux attach
 ```
+
 
 ## Javascript Elf Game
 * [Conversation: Ribb Bonbowford](conversations.md#ribb-bonbowford)
@@ -209,6 +211,8 @@ elf.moveUp(2)
 ```
 
 ## Sort-O-Matic
+* [Conversation: Minty Candycane](conversations.md#minty-candycane)
+
 challenge=regex
 
 1. Matches at least one digit
@@ -281,6 +285,9 @@ exit
 ```
 
 ## Santa Shop
+* [Conversation: Sugarplum Mary](conversations.md#sugarplum-mary)
+* [Objective 03](objectives.md#03---point-of-sale-password-recovery-)
+
 challenge=
 
 * spin up a nodejs container and extract .asar file from .exe
@@ -303,8 +310,10 @@ grep PASSWORD main.js
 
 
 ## Greeting Cards
-https://greeting-cards.kringlecastle.com/
 * [Conversation: Chimney Scissorsticks](conversations.md##chimney-scissorsticks)
+
+https://greeting-cards.kringlecastle.com/
+
 
 
 ## Scapy Prepper
