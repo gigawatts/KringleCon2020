@@ -115,7 +115,7 @@ Type 'exit' to return to the menu.
 
 
 ## Investigate S3 Bucket
-
+* Location: Castle Approach
 * [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
 * [Objective 02](objectives.md#02---investigate-s3-bucket-)
 
@@ -214,6 +214,7 @@ elf.moveUp(2)
 ```
 
 ## Sort-O-Matic
+* Location: Workshop
 * [Conversation: Minty Candycane](conversations.md#minty-candycane)
 
 challenge=regex
@@ -314,6 +315,7 @@ grep PASSWORD main.js
 ```
 
 ## 33.6kbps
+* Location: Kitchen
 * [Conversation: Fitzy Shortstack](conversations.md#fitzy-shortstack)
 
 ```
@@ -331,17 +333,24 @@ Click 'SCHHRRHHRTHRTR'
 
 
 ## Greeting Cards
-* [Conversation: Chimney Scissorsticks](conversations.md##chimney-scissorsticks)
+* Location: Talks Lobby
+* [Conversation: Chimney Scissorsticks](conversations.md#chimney-scissorsticks)
 
 https://greeting-cards.kringlecastle.com/
 
 
 
 ## Scapy Prepper
+* Location: Roof / NetWars
 * [Conversation: Alabaster Snowball](conversation.md#alabaster-snowball)
 
 
 
 ## CAN-Bus Investigation
+* Location: Roof / NetWars
 * [Conversation: Wunorse Openslae](conversation.md#wunorse-openslae)
 
+
+## Tag Generator
+* Location: Wrapping Room
+* [Conversation: Noel Boetie](conversation.md#noel-boetie)
