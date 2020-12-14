@@ -382,6 +382,8 @@ https://greeting-cards.kringlecastle.com/
 * Location: Wrapping Room
 * [Conversation: Noel Boetie](conversation.md#noel-boetie)
 
+https://tag-generator.kringlecastle.com/
+
 
 ## Snowball Fight
 * Location: Speaker UNPreparedness Room
