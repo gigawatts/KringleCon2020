@@ -50,6 +50,8 @@ Great work with that! I'm sure you'll be able to help us with more challenges up
 
 
 ## Santa
+* Location: Castle Approach
+
 Hello and welcome to the North Pole!
 
 We’re super excited about this year’s KringleCon 3: French Hens.
@@ -61,6 +63,8 @@ It was a HUGE construction project, and we’ve nearly completed it.
 Please pardon the remaining construction dust around the castle and enjoy yourselves!
 
 ...
+
+* Location: Entry
 
 Welcome to my newly upgraded castle!
 
@@ -79,6 +83,8 @@ You can get there through my new Santavator!
 ...
 
 ## Jewel Loggins
+* Location: Castle Approach
+
 Welcome to the SANS Holiday Hack Challenge 2020! Have a great time!
 
 Be sure to join us on Discord!
@@ -95,6 +101,10 @@ You might even find one as you approach the castle!
 
 
 ## Shinny Upatree
+* [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
+* [Terminal: Kringle Kiosk](terminals.md#kringle-kiosk)
+* [Terminal: Investigate S3 Bucket](terminals.md#investigate-s3-bucket)
+
 Hiya hiya - I'm Shinny Upatree!
 
 Check out this cool KringleCon kiosk!
@@ -128,6 +138,8 @@ Good luck, and thanks for pitching in!
 
 
 ## Pepper Minstix
+* Location: Castle Approach
+
 Howdy - Pepper Minstix here!
 
 I've been playing with tmux lately, and golly it's useful.
@@ -161,6 +173,8 @@ You need to power the red, yellow, and green receivers with the right color ligh
 
 
 ## Piney Sappington
+* Location: Entry
+
 Psssst!
 
 Hey you! Yes YOU!
@@ -181,6 +195,9 @@ I can’t say any more – he might hear!
 
 
 ## Ribb Bonbowford
+* Location: Dining Room
+* [Terminal: The Elf Code](terminals.md#the-elf-code)
+
 Hello - my name is Ribb Bonbowford. Nice to meet you!
 
 Are you new to programming? It's a handy skill for anyone in cyber security.
@@ -207,6 +224,8 @@ Hey, you know, you might use your JavaScript and HTTP manipulation skills to tak
 
 
 ## Sparkle Redberry
+* Location: Entry
+
 Hey hey, Sparkle Redberry here!
 
 The Santavator is on the fritz. Something with the wiring is grinchy, but maybe you can rig something up?
@@ -229,6 +248,8 @@ To get to different floors, you'll need to power the various colored receivers.
 
 
 ## Ginger Breddie
+* Location: Entry
+
 Hey, I heard from some of the other elves that there's some really crazy things going on with floor one and a half.
 
 ...
@@ -272,6 +293,8 @@ Hi, I'm Jack Frost!
 Just hanging out here at The Frostiest Place on Earth.
 
 ...
+
+* Location: Courtyard
 
 That's such a magnificent portrait of Santa in the foyer.
 
@@ -391,6 +414,8 @@ Breaking into Santa's office might mean immediate membership on the wrong side o
 
 
 ## Bubble Lightington
+* Location: Courtyard
+
 Santa doesn’t seem to be his kind self lately.
 
 It’s like something’s gotten into him.
@@ -401,6 +426,7 @@ Must be stress.
 
 
 ## Sugarplum Mary
+* Location: Courtyard
 * [Terminal: Linux Primer](terminals.md#linux-primer)
 
 Sugarplum Mary? That's me!
@@ -435,6 +461,7 @@ I hear there's a way to extract an ASAR file from the binary, but I haven't look
 
 
 ## Fitzy Shortstack
+* Location: Kitchen
 * [Terminal: 33.6kbps](terminals.md#336kbps)
 
 "Put it in the cloud," they said...
@@ -456,5 +483,45 @@ Maybe you can help me out? The phone number is 756-8347; you can use this blue p
 Anytime you feel like changing the color scheme up, just pick up the phone!
 
 You know, Santa really seems to trust Shinny Upatree...
+
+...
+
+
+## Holly Evergreen
+* Location: Kitchen
+* [Terminal: Redis Bug Hunt](terminals.md#redis-bug-hunt)
+
+Hi, so glad to see you! I'm Holly Evergreen.
+
+I've been working with this Redis-based terminal here.
+
+We're quite sure there's a bug in it, but we haven't caught it yet.
+
+The maintenance port is available for curling, if you'd like to investigate.
+
+Can you check the source of the index.php page and look for the bug?
+
+I read something online recently about remote code execution on Redis. That might help!
+
+I think I got close to RCE, but I get mixed up between commas and plusses.
+
+You'll figure it out, I'm sure!
+
+...
+
+
+## Angel Candysalt
+* Location: Great Room
+* [Terminal: Splunk](terminals.md#splunk)
+
+You know, every day or so, I see Santa looking at his portrait in the entry and then letting out a maniacal “Bwahahaha.”
+
+It’s kind of disturbing and I’m worried about him.
+
+Oh, this machine here? Oh, it's nothing you'll be able to use.
+
+You know, we have pretty tight controls on authentication for that infrastructure.
+
+There’s some biometrics, so only Santa and a handful of elves can login.
 
 ...
