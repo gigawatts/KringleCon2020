@@ -260,6 +260,12 @@ I'm getting all kinds of ideas for different modes of attack.
 
 ...
 
+Hi, I'm Jack Frost!
+
+Just hanging out here at The Frostiest Place on Earth.
+
+...
+
 
 ## Bushy Evergreen
 * [Terminal: Speaker UNPrep](terminals.md#speaker-unprep)
@@ -271,5 +277,37 @@ It's running some Rust code written by Alabaster Snowball.
 I'm pretty sure the password I need for ./door is right in the executable itself.
 
 Isn't there a way to view the human-readable strings in a binary file?
+
+...
+
+
+## Alabaster Snowball
+* [Terminal: Scapy Prepper](terminals.md#scapy-prepper)
+
+Welcome to the roof! Alabaster Snowball here.
+
+I'm watching some elves play NetWars!
+
+Feel free to try out our Scapy Present Packet Prepper!
+
+If you get stuck, you can help() to see how to get tasks and hints.
+
+...
+
+
+## Wunorse Openslae
+Hiya hiya - I'm Wunorse Openslae!
+
+I've been playing a bit with CAN bus. Are you a car hacker?
+
+I'd love it if you could take a look at this terminal for me.
+
+I'm trying to figure out what the unlock code is in this CAN bus log.
+
+When it was grabbing this traffic, I locked, unlocked, and locked the doors one more time.
+
+It ought to be a simple matter of just filtering out the noise until we get down to those three actions.
+
+Need more of a nudge? Check out Chris Elgee's talk on CAN traffic!
 
 ...
