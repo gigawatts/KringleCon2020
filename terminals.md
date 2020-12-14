@@ -354,6 +354,9 @@ Become Santa!
 
 ## Splunk
 * Location: Great Room
+* [Conversation: Angel Candysalt](conversations.md#angel-candysalt)
+
+https://splunk.kringlecastle.com/en-US/app/SA-kringleconsoc/kringleconsoc
 
 
 ## Greeting Cards
