@@ -42,8 +42,6 @@ Solution in [Terminal: Santa Shop](terminals.md#santa-shop)
 ## 05 - Open HID Lock 🎄🎄
 *Open the HID lock in the Workshop. Talk to Bushy Evergreen near the talk tracks for hints on this challenge. You may also visit Fitzy Shortstack in the kitchen for tips.*
 
-**Answer:**
-
 
 ## 06 - Splunk Challenge 🎄🎄🎄
 *Access the Splunk terminal in the Great Room. What is the name of the adversary group that Santa feared would attack KringleCon?*
@@ -53,7 +51,6 @@ Solution in [Terminal: Santa Shop](terminals.md#santa-shop)
 
 ## 07 - Solve the Sleigh's CAN-D-BUS Problem 🎄🎄🎄
 *Jack Frost is somehow inserting malicious messages onto the sleigh's CAN-D bus. We need you to exclude the malicious messages and no others to fix the sleigh. Visit the NetWars room on the roof and talk to Wunorse Openslae for hints.*
-
 
 
 ## 08 - Broken Tag Generator 🎄🎄🎄🎄
@@ -69,9 +66,7 @@ Solution in [Terminal: Santa Shop](terminals.md#santa-shop)
 
 
 ## 10 - Defeat Fingerprint Sensor
-**
-
-**Answer:**
+*Bypass the Santavator fingerprint sensor. Enter Santa's office without Santa's fingerprint.*
 
 
 ## 11a - Naughty/Nice List with Blockchain Investigation Part 1 🎄🎄🎄🎄🎄
