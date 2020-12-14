@@ -20,11 +20,7 @@
 ## 02 - Investigate S3 Bucket 🎄🌲🌲🌲🌲
 *When you unwrap the over-wrapped file, what text string is inside the package? Talk to Shinny Upatree in front of the castle for hints on this challenge.*
 
-```
-cd bucket_finder/; echo "wrapper3000" >> wordlist; ./bucket_finder.rb wordlist --download; cd wrapper3000/
-base64 -d package | zcat | bzip2 -d | tar xf - > package.txt.Z.xz.xxd
-xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
-```
+Solution in [Terminal: Investigate S3 Bucket](terminals.md#investigate-s3-bucket)
 
 **Answer:** North Pole: The Frostiest Place on Earth
 
@@ -32,13 +28,15 @@ xxd -r package.txt.Z.xz.xxd | xz -d | gzip -d -
 ## 03 - Point-of-Sale Password Recovery 🎄🌲🌲🌲🌲
 *Help Sugarplum Mary in the Courtyard find the supervisor password for the point-of-sale terminal. What's the password?*
 
-**Answer:**
+Solution in [Terminal: Santa Shop](terminals.md#santa-shop)
+
+**Answer:** santapass
 
 
 ## 04 - Operate the Santavator 🎄🎄🌲🌲🌲
 *Talk to Pepper Minstix in the entryway to get some hints about the Santavator.*
 
-**Answer:**
+**Answer:** Collect some items and get the key from [Sparkle Redberry](conversations.md#sparkle-redberry) and travel to another floor.
 
 
 ## 05 - Open HID Lock 🎄🎄🌲🌲🌲
