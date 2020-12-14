@@ -214,6 +214,43 @@ elf.tell_munch(a)
 elf.moveUp(2)
 ```
 
+## Sort-O-Matic
+challenge=regex
+
+1. Matches at least one digit
+```
+\d
+```
+2. Matches 3 alpha a-z characters ignoring case
+```
+[a-zA-Z]{3}
+```
+3. Matches 2 chars of lowercase a-z or numbers
+```
+[a-z0-9]{2}
+```
+4. Matches any 2 chars not uppercase A-L or 1-5
+```
+[^A-L1-5]{2}
+```
+5. Matches three or more digits only
+```
+^[0-9]{3,}$
+```
+6. Matches multiple hour:minute:second time formats only
+```
+^[0-2]?[0-9]{1}:[0-5]{1}[0-9]{1}:[0-5]{1}[0-9]{1}$
+```
+7. Matches MAC address format only while ignoring case
+```
+^([0-9a-fA-F]{2}):([0-9a-fA-F]{2}):([0-9a-fA-F]{2}):([0-9a-fA-F]{2}):([0-9a-fA-F]{2}):([0-9a-fA-F]{2})$
+```
+8. Matches multiple day, month, and year date formats only
+```
+^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d$
+```
+
+
 ## Greeting Cards
 https://greeting-cards.kringlecastle.com/
 * [Conversation: Chimney Scissorsticks](conversations.md##chimney-scissorsticks)
