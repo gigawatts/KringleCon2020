@@ -435,7 +435,7 @@ I hear there's a way to extract an ASAR file from the binary, but I haven't look
 
 
 ## Fitzy Shortstack
-* [Terminal: Blue Phone](terminals.md#blue-phone)
+* [Terminal: 33.6kbps](terminals.md#336kbps)
 
 "Put it in the cloud," they said...
 
@@ -448,5 +448,13 @@ We can shuffle the colors of the lights by connecting via dial-up, but our only 
 Fortunately, I speak dial-up. However, I can't quite remember the [handshake sequence](https://upload.wikimedia.org/wikipedia/commons/3/33/Dial_up_modem_noises.ogg).
 
 Maybe you can help me out? The phone number is 756-8347; you can use this blue phone.
+
+...
+
+탢ݵרOُ񆨶$Ԩ؉楌Բ ahem! We did it! Thank you!!
+
+Anytime you feel like changing the color scheme up, just pick up the phone!
+
+You know, Santa really seems to trust Shinny Upatree...
 
 ...
