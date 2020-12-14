@@ -546,10 +546,13 @@ There’s some biometrics, so only Santa and a handful of elves can login.
 ...
 
 
+---
+
 
 # As Santa
 
 ## Jingle Ringford to Santa
+
 Santa, it's surprising to see you all the way down here!
 
 I'm used to you being up at the North Pole.
@@ -558,6 +561,7 @@ I'm used to you being up at the North Pole.
 
 
 ## Pepper Minstix to Santa
+
 Howdy Santa!
 
 I've heard that several people have fixed the Santavator, including you. That's great news!
@@ -566,12 +570,14 @@ I've heard that several people have fixed the Santavator, including you. That's 
 
 
 ## Jewel Loggins to Santa
+
 Hey Santa, didn't I just see you walking past me?
 
 ...
 
 
 ## Shinny Upatree to Santa
+
 Hiya hiya, Santa!
 
 Hey, there's issues going on with the tag generator in the Wrapping Room.
@@ -580,6 +586,7 @@ Hey, there's issues going on with the tag generator in the Wrapping Room.
 
 
 ## Piney Sappington to Santa
+
 Hey Santa!
 
 Are you alright?
@@ -592,12 +599,14 @@ You’ve been so busy.
 
 
 ## Ginger Breddie to Santa
+
 Hey Santa! Did you just come here from floor one and a half?
 
 ...
 
 
 ## Sparkle Redberry to Santa
+
 Santa, I just saw you get in the Santavator, but you never came back down, but now you're back.
 
 How did you do that?
@@ -606,6 +615,7 @@ How did you do that?
 
 
 ## Angel Candysalt to Santa
+
 Hey Santa, there’s some crazy stuff going on that we can see through our Splunk infrastructure.
 
 You better login and see what’s up.
@@ -614,6 +624,7 @@ You better login and see what’s up.
 
 
 ## Fitzy Shortstack to Santa
+
 "Watch Santa walk around," they said.
 
 "See how strange he's behaving," they said.
@@ -628,6 +639,7 @@ I hope you're feeling OK.
 
 
 ## Holly Evergreen to Santa
+
 Hi Santa!
 
 If you have a chance, I'd love to get your feedback on the Tag Generator updates!
@@ -638,6 +650,7 @@ I'm a little concerned about the file upload feature, but Noel thinks it will be
 
 
 ## Ribb Bonbowford to Santa
+
 Hello Santa!
 
 I've been looking over some of that code you submitted for the Santavator.
@@ -652,6 +665,7 @@ Normally your code is cleaner.
 
 
 ## Bubble Lightington to Santa
+
 Hey Santa… I’ve noticed that lately, you’ve been telling everyone to “Stay frosty.”
 
 What’s that all about?
@@ -692,6 +706,7 @@ I'm just minding my own business, watching the elves play NetWars.
 
 
 ## Sugarplum Mary to Santa
+
 IT'S SANTA!!!
 
 ... oh, hi Santa.
@@ -708,6 +723,7 @@ Wow Santa, these guests are amazing! It seems like there's nothing they can't do
 
 
 ## Chimney Scissorsticks to Santa
+
 Hello hello, Santa!
 
 Guests have been having fun generating greeting cards with our machine!
@@ -716,6 +732,8 @@ Guests have been having fun generating greeting cards with our machine!
 
 
 ## Bow Ninecandle to Santa
+* Location: Talks Lobby
+
 Santa, it’s good to see you.
 
 Are you still trying to get the North Pole marketing department to use your new tagline, “The North Pole: The Frostiest Place on Earth?”
@@ -724,6 +742,8 @@ Are you still trying to get the North Pole marketing department to use your new 
 
 
 ## Bushy Evergreen to Santa
+* Location: Talks Lobby
+
 Ohai Santa!
 
 I found someone to test the new HID lock in the Workshop.
@@ -820,6 +840,7 @@ Hey, Santa!
 
 ## Alabaster Snowball to Santa
 * Location: Roof / NetWars
+
 Hey Santa! You've got to check out our Scapy Present Packet Prepper!
 
 Please work through the whole thing to make sure it's helpful for our guests!
@@ -845,6 +866,7 @@ I can’t figure out what’s wrong, but maybe you can check it out to fix it.
 
 ## Minty Candycane to Santa
 * Location: Workshop
+
 Hey there Santa!
 
 I'm working on this regex Present Sorter and making great progress! It's still not quite right though.
