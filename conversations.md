@@ -299,6 +299,8 @@ If you get stuck, you can help() to see how to get tasks and hints.
 
 
 ## Wunorse Openslae
+* [Terminal: CAN-Bus Investigation](terminals.md#can-bus-investigation)
+
 Hiya hiya - I'm Wunorse Openslae!
 
 I've been playing a bit with CAN bus. Are you a car hacker?
@@ -317,6 +319,8 @@ Need more of a nudge? Check out Chris Elgee's talk on CAN traffic!
 
 
 ## Minty Candycane
+* Sort-O-Matic
+
 Hey there, KringleCon attendee! I'm Minty Candycane!
 
 I'm working on fixing the Present Sort-O-Matic.
@@ -330,5 +334,19 @@ You can find a regular expression cheat sheet [here](https://www.debuggex.com/ch
 You can use [this](https://regex101.com/) regex interpreter to test your regex against the required Sort-O-Matic patterns.
 
 Do you think you can help me fix it?
+
+...
+
+
+## Noel Boetie
+* [Terminal: Tag Generator]()
+
+I'm Noel Boetie. Welcome to the Wrapping Room!
+
+We wrap presents and tag them for delivery here.
+
+Unfortunately, the tag generator is acting up.
+
+I'm hoping Santa can give me a hand nailing down that flaw.
 
 ...
