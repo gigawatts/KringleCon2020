@@ -150,3 +150,59 @@ Solution:
 tmux list-sessions
 tmux attach
 ```
+
+## Javascript Elf Game
+* [Conversation: Ribb Bonbowford](conversations.md#ribb-bonbowford)
+
+### Level 1
+ elf.moveTo(lollipop[0])
+ elf.moveUp(10)
+
+### Level 2 - Trigger The Yeeter
+ elf.moveLeft(6)
+ elf.pull_lever(elf.get_lever(0) + 2)
+ elf.moveLeft(4)
+ elf.moveUp(10)
+
+## Level 3
+ elf.moveTo(lollipop[0])
+ elf.moveTo(lollipop[1])
+ elf.moveTo(lollipop[2])
+ elf.moveUp(1)
+
+## Level 4 - Up Down Loopiness
+ for (var i = 0; i < 3; i++) {
+   elf.moveLeft(3)
+   elf.moveUp(13)
+   elf.moveLeft(3)
+   elf.moveDown(13)
+ }
+ elf.moveUp(13)
+
+## Level 5 - Move To Madness
+ var q = elf.ask_munch(0)
+ var a = q.filter(elem => typeof elem === 'number')
+ console.log(q + '\n' + a)
+ elf.moveTo(lollipop[1])
+ elf.moveTo(lollipop[0])
+ elf.tell_munch(a)
+ elf.moveUp(2)
+
+### Level 6 - Two Paths, Your Choice
+ var obj = elf.ask_munch(0)
+ var a = ""
+ Object.keys(obj).forEach(function(k) {
+   if (obj[k] == 'lollipop') {
+      console.log(k + ' - ' + obj[k]);
+      a = k;
+      }
+ });
+ for (var l = 0; l < 4; l++) { elf.moveTo(lollipop[l]) }
+ elf.moveTo(munchkin[0])
+ elf.tell_munch(a)
+ elf.moveUp(2)
+ 
+
+## Greeting Cards
+https://greeting-cards.kringlecastle.com/
+* [Conversation: Chimney Scissorsticks](conversations.md##chimney-scissorsticks)
