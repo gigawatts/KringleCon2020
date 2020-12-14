@@ -12,6 +12,9 @@
 * [Bow Ninecandle](#bow-ninecandle)
 * [Jack Frost](#jack-frost)
 * [Bushy Evergreen](#bushy-evergreen)
+* [Alabaster Snowball](#alabaster-snowball)
+* [Wunorse Openslae](#wunorse-openslae)
+* [Minty Candycane](#minty-candycane)
 
 
 ## Jingle Ringford
@@ -309,5 +312,23 @@ When it was grabbing this traffic, I locked, unlocked, and locked the doors one 
 It ought to be a simple matter of just filtering out the noise until we get down to those three actions.
 
 Need more of a nudge? Check out Chris Elgee's talk on CAN traffic!
+
+...
+
+
+## Minty Candycane
+Hey there, KringleCon attendee! I'm Minty Candycane!
+
+I'm working on fixing the Present Sort-O-Matic.
+
+The Sort-O-Matic uses JavaScript regular expressions to sort presents apart from misfit toys, but it's not working right.
+
+With some tools, regexes need / at the beginning and the ends, but they aren't used here.
+
+You can find a regular expression cheat sheet [here](https://www.debuggex.com/cheatsheet/regex/javascript) if you need it.
+
+You can use [this](https://regex101.com/) regex interpreter to test your regex against the required Sort-O-Matic patterns.
+
+Do you think you can help me fix it?
 
 ...
