@@ -352,6 +352,64 @@ Click 'SCHHRRHHRTHRTR'
 Become Santa!
 
 
+## Speaker UNPrep
+* Location: Talks Lobby
+* [Conversation: Bushy Evergreen](conversations.md#bushy-evergreen)
+
+* door
+
+Super simple
+
+```bash
+strings door|grep -i password
+```
+
+**Answer**: Op3nTheD00r
+
+
+* lights
+
+Here are a few commands that can be run to dump the memory heap of the process to a file, where you can see the decrypted password in plain text.
+
+```bash
+# start term
+./lights
+# ctrl + z
+
+cd lab;
+pid=$(jobs -p)
+addrs=$(grep rw-p /proc/${pid}/maps | grep heap | awk '{print $1}')
+start=$(echo $addrs | cut -d- -f1)
+stop=$(echo $addrs | cut -d- -f2)
+gdb --batch --pid ${pid} -ex "dump memory pid${pid}-heap-$start-$stop.dump 0x$start 0x$stop"
+strings pid*heap*.dump
+
+# there's the password, now go enter it!
+/home/elf/lights
+```
+
+**Answer**: Computer-TurnLightsOn
+
+* vending-machines
+
+I wrote a short bash script to cycle through input characters and see how the encoded output changes. 
+
+```bash
+echo "Match this: LVEdQPpBwr"
+known="$1"
+for i in {a..z} {A..Z} {0-9}; do
+  rm vending-machines.json;
+  echo -e "me\n${known}${i}" | ./vending-machines >/dev/null
+  out=$(cat vending-machines.json | grep password | awk -F: '{print $2}')
+  echo "${known}${i} ->$out"
+done
+```
+
+To start, you just run the script, and it automates the process of deleting the json file, running the binary, giving it an input, and reading the resulting output from the new json. Once you find a match for the first character, you stop the script and re-run it with the inputs you already know, and continue until you have every character of the password. I could automate this further, to grep for a match so it runs completely on its own, but this worked fine as is.
+
+**Answer**: CandyCane1
+
+
 ## Splunk
 * Location: Great Room
 * [Conversation: Angel Candysalt](conversations.md#angel-candysalt)
