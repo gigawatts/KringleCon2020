@@ -42,6 +42,8 @@ Solution in [Terminal: Santa Shop](terminals.md#santa-shop)
 ## 05 - Open HID Lock 🎄🎄
 *Open the HID lock in the Workshop. Talk to Bushy Evergreen near the talk tracks for hints on this challenge. You may also visit Fitzy Shortstack in the kitchen for tips.*
 
+Solution in [Terminal: HID Lock](terminals.md#hid-lock)
+
 
 ## 06 - Splunk Challenge 🎄🎄🎄
 *Access the Splunk terminal in the Great Room. What is the name of the adversary group that Santa feared would attack KringleCon?*
