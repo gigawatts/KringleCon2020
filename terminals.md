@@ -330,8 +330,9 @@ Click 'SCHHRRHHRTHRTR'
 
 ## HID Lock
 * Location: Workshop
+* [Objective 05](objectives.md#05---open-hid-lock-)
 
-* Use ProxMark3 to scan Shinny Upatree's HID badge
+* Use your Proxmark3 in your Badge Items inventory to scan Shinny Upatree's HID badge
 
 ```
 [magicdust] pm3 --> lf hid read
@@ -339,7 +340,7 @@ Click 'SCHHRRHHRTHRTR'
 [+] Valid HID Prox ID found!
 ```
 
-* Simulate that card infront of the locked door
+* Simulate that card in front of the locked door in the Workshop
 
 ```
 [magicdust] pm3 --> lf hid sim -r 2006e22f13 --fc 113 --cn 6025
@@ -349,7 +350,8 @@ Click 'SCHHRRHHRTHRTR'
 ```
 
 * Location: ???
-Become Santa!
+
+Become Santa?!?
 
 
 ## Speaker UNPrep
