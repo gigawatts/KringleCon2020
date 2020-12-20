@@ -431,18 +431,18 @@ https://greeting-cards.kringlecastle.com/
 
 ## Scapy Prepper
 * Location: Roof / NetWars
-* [Conversation: Alabaster Snowball](conversation.md#alabaster-snowball)
+* [Conversation: Alabaster Snowball](conversations.mds#alabaster-snowball)
 
 
 
 ## CAN-Bus Investigation
 * Location: Roof / NetWars
-* [Conversation: Wunorse Openslae](conversation.md#wunorse-openslae)
+* [Conversation: Wunorse Openslae](conversations.md#wunorse-openslae)
 
 
 ## Tag Generator
 * Location: Wrapping Room
-* [Conversation: Noel Boetie](conversation.md#noel-boetie)
+* [Conversation: Noel Boetie](conversations.md#noel-boetie)
 
 https://tag-generator.kringlecastle.com/
 
