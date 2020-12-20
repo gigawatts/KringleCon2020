@@ -358,7 +358,9 @@ Become Santa?!?
 * Location: Talks Lobby
 * [Conversation: Bushy Evergreen](conversations.md#bushy-evergreen)
 
-* door
+challenge=santamode-speaker
+
+### Open the door
 
 Super simple
 
@@ -369,7 +371,7 @@ strings door|grep -i password
 **Answer**: Op3nTheD00r
 
 
-* lights
+### Turn on the lights
 
 Here are a few commands that can be run to dump the memory heap of the process to a file, where you can see the decrypted password in plain text.
 
@@ -392,7 +394,7 @@ strings pid*heap*.dump
 
 **Answer**: Computer-TurnLightsOn
 
-* vending-machines
+### Turn on the vending machine
 
 I wrote a short bash script to cycle through input characters and see how the encoded output changes. 
 
