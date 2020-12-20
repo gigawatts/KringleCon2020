@@ -443,6 +443,9 @@ https://greeting-cards.kringlecastle.com/
 ## Tag Generator
 * Location: Wrapping Room
 * [Conversation: Noel Boetie](conversations.md#noel-boetie)
+* [Conversation: Noel Boetie to Santa](conversations.md#noel-boetie-to-santa)
+* [Conversation: Holly Evergreen to Santa](conversations.md#holly-evergreen-to-santa)
+* [Conversation: Shinny Upatree to Santa](conversations.md#shinny-upatree-to-santa)
 
 https://tag-generator.kringlecastle.com/
 
