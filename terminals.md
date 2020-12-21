@@ -621,7 +621,43 @@ Your answer is correct!
 
 challenge=candbus
 
+```
+019  Steering
+02A  Start / Stop
+080  Brake
+188  ?
+19B  Locks
+244  RPM
 
+Start     = 02A#00FF00
+Stop      = 02A#0000FF
+Lock      = 19B#000000000000
+Unlock    = 19B# 00 00 0F 00 00 00
+Accel/RPM = 244# 
+  100     = 00 00 00 00 23 7F  (9087 RPM)
+
+Brake    = 080#
+  0      = 000000
+  1      = 000001
+  3      = 000003
+  4      = 000004  +  FFFFF? junk
+  100    = 00 00 64
+
+Steering = 019#
+  0      = 000000000000
+  -50    = FFFFFFFFFFCD
+  50     = 000000000032
+  
+## clear noise
+Brake     080 Equals 00 00 00 00 00 00
+Steering  019 Equals 00 00 00 00 00 00
+RPM       244 Equals 00 00 00 00 00 00
+?         188 Equals 00 00 00 00 00 00
+
+## deFrost filters
+Locks  19B Equals   00 00 00 0F 20 57
+Brake  080 Contains __ __ __ FF __ __
+```
 
 
 ## Greeting Cards
@@ -635,10 +671,6 @@ https://greeting-cards.kringlecastle.com/
 ## Scapy Prepper
 * Location: Roof / NetWars
 * [Conversation: Alabaster Snowball](conversations.mds#alabaster-snowball)
-
-
-
-
 
 
 ## Tag Generator
