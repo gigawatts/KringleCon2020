@@ -56,6 +56,8 @@ Solution in [Terminal: Splunk](terminals.md#splunk)
 ## 07 - Solve the Sleigh's CAN-D-BUS Problem 🎄🎄🎄
 *Jack Frost is somehow inserting malicious messages onto the sleigh's CAN-D bus. We need you to exclude the malicious messages and no others to fix the sleigh. Visit the NetWars room on the roof and talk to Wunorse Openslae for hints.*
 
+Solution in [Terminal: Sleigh CAN-D-Bus](terminals.md#sleigh-can-d-bus)
+
 
 ## 08 - Broken Tag Generator 🎄🎄🎄🎄
 *Help Noel Boetie fix the [Tag Generator](https://tag-generator.kringlecastle.com/) in the Wrapping Room. What value is in the environment variable GREETZ? Talk to Holly Evergreen in the kitchen for help with this.*
