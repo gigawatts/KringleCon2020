@@ -417,8 +417,164 @@ To start, you just run the script, and it automates the process of deleting the 
 ## Splunk
 * Location: Great Room
 * [Conversation: Angel Candysalt](conversations.md#angel-candysalt)
+* [Objective 06](objectives.md#06---splunk-challenge-)
 
 https://splunk.kringlecastle.com/en-US/app/SA-kringleconsoc/kringleconsoc
+
+### Training Questions
+
+1.	How many distinct MITRE ATT&CK techniques did Alice emulate?
+
+Splunk Query:
+```
+| tstats count where index=t* by index 
+| rex field=index mode=sed "s/(\.|-).*$//" 
+| dedup index
+```
+
+```
+= 13
+```
+
+
+2.	What are the names of the two indexes that contain the results of emulating Enterprise ATT&CK technique 1059.003? (Put them in alphabetical order and separate them with a space)
+
+```
+= t1059.003-main t1059.003-win
+```
+
+
+3.	One technique that Santa had us simulate deals with 'system information discovery'. What is the full name of the registry key that is queried to determine the MachineGuid?
+
+https://attack.mitre.org/techniques/enterprise/
+
+search for "system information discovery"
+
+https://attack.mitre.org/techniques/T1082/
+
+
+Splunk Query:
+```
+| tstats count where index=* by index 
+| rex field=index "(?<technique>t\d+)[\.\-].0*"
+|  search technique=t1082
+```
+
+Splunk Query:
+```
+index=t1082-win MachineGuid
+```
+
+```
+= HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+```
+
+
+4.	According to events recorded by the Splunk Attack Range, when was the first OSTAP related atomic test executed? (Please provide the alphanumeric UTC timestamp.)
+
+Splunk Query:
+```
+index=attack OSTAP 
+| stats values(Execution Time _UTC) by _time
+```
+
+```
+= 2020-11-30T17:44:15Z
+```
+
+
+5.	One Atomic Red Team test executed by the Attack Range makes use of an open source package authored by frgnca on GitHub. According to Sysmon (Event Code 1) events in Splunk, what was the ProcessId associated with the first use of this component?
+
+https://github.com/frgnca/AudioDeviceCmdlets
+
+Splunk Query:
+```
+index=attack audio
+```
+
+Splunk Query:
+```
+| tstats count where index=* by index 
+| rex field=index "(?<technique>t\d+)[\.\-].0*"
+|  search technique=t1123
+```
+
+Splunk Query:
+```
+index=t1123-win EventID=1 ProcessId ParentCommandLine="*powershell.exe*"
+| dedup ParentCommandLine
+| stats values(ParentCommandLine) by ProcessId, _time
+| sort _time
+```
+
+```
+= 3648
+```
+
+
+6.	Alice ran a simulation of an attacker abusing Windows registry run keys. This technique leveraged a multi-line batch file that was also used by a few other techniques. What is the final command of this multi-line batch file used as part of this simulation?
+
+Splunk Query:
+```
+index=attack registry
+```
+
+Splunk Query:
+```
+| tstats count where index=* by index 
+| rex field=index "(?<technique>t\d+)[\.\-].0*"
+|  search technique=t1547
+```
+
+Splunk Query:
+```
+index=t1547.001-win EventID=1 ProcessId ParentCommandLine="*powershell.exe*"
+| dedup ParentCommandLine
+| stats values(ParentCommandLine) by ProcessId, _time
+| sort _time
+```
+
+
+https://attack.mitre.org/techniques/T1547/001/
+
+Splunk Query:
+```
+index=* file_name="*.bat" 
+| stats values(file_name)
+```
+
+Discovery.bat
+
+https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Misc/Discovery.bat
+
+```
+= quser
+```
+
+
+7.	According to x509 certificate events captured by Zeek (formerly Bro), what is the serial number of the TLS certificate assigned to the Windows domain controller in the attack range?
+
+Splunk Query:
+```
+index=* sourcetype=bro* source="/opt/zeek/logs/current/x509.log" "certificate.issuer"="CN=win-dc*"
+| stats values(certificate.serial) by certificate.issuer
+```
+
+```
+= 55FCEEBB21270D9249E86F4B9DC7AA60
+```
+
+
+8. Challenge Question: What is the name of the adversary group that Santa feared would attack KringleCon?
+
+RFC 7465 = Prohibiting RC4 Cipher Suites
+
+https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)RC4(%7B'option':'UTF8','string':'Stay%20Frosty'%7D,'Latin1','Latin1')&input=N0ZYalAxbHlmS2J5REsvTUNoeWYzNmg3
+
+```
+= The Lollipop Guild
+```
+
 
 
 ## Greeting Cards
