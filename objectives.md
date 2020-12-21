@@ -48,7 +48,9 @@ Solution in [Terminal: HID Lock](terminals.md#hid-lock)
 ## 06 - Splunk Challenge 🎄🎄🎄
 *Access the Splunk terminal in the Great Room. What is the name of the adversary group that Santa feared would attack KringleCon?*
 
-**Answer:**
+Solution in [Terminal: Splunk](terminals.md#splunk)
+
+**Answer:** The Lollipop Guild
 
 
 ## 07 - Solve the Sleigh's CAN-D-BUS Problem 🎄🎄🎄
