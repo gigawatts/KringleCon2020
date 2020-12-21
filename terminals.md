@@ -5,6 +5,7 @@
 <details><summary>Click to expand</summary>
 
 challenge=shell
+
 ```
 Welcome to our castle, we're so glad to have you with us!
 Come and browse the kiosk; though our app's a bit suspicious.
@@ -579,7 +580,6 @@ https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)RC4
 ## CAN-Bus Investigation
 * Location: Roof / NetWars
 * [Conversation: Wunorse Openslae](conversations.md#wunorse-openslae)
-* [Conversation: Wunorse Openslae to Santa](conversations.md#wunorse-openslae-to-santa)
 
 challenge=santamode-canbus
 
@@ -617,7 +617,7 @@ Your answer is correct!
 
 ## Sleigh CAN-D-Bus
 * Location: Roof / NetWars
-* Conversation: Wunorse Openslae
+* [Conversation: Wunorse Openslae](conversations.md#wunorse-openslae)
 
 challenge=candbus
 
@@ -659,6 +659,10 @@ Locks  19B Equals   00 00 00 0F 20 57
 Brake  080 Contains __ __ __ FF __ __
 ```
 
+## Redis Bug Hunt
+* Location: Kitchen
+* [Conversation: Holly Evergreen](conversations.md#holly-evergreen)
+
 
 ## Greeting Cards
 * Location: Talks Lobby
@@ -676,29 +680,29 @@ https://greeting-cards.kringlecastle.com/
 ## Tag Generator
 * Location: Wrapping Room
 * [Conversation: Noel Boetie](conversations.md#noel-boetie)
-* [Conversation: Noel Boetie to Santa](conversations.md#noel-boetie-to-santa)
-* [Conversation: Holly Evergreen to Santa](conversations.md#holly-evergreen-to-santa)
-* [Conversation: Shinny Upatree to Santa](conversations.md#shinny-upatree-to-santa)
+* [Conversation: Holly Evergreen](conversations.md#holly-evergreen)
+* [Conversation: Shinny Upatree](conversations.md#shinny-upatree)
 
 https://tag-generator.kringlecastle.com/
 
 
 ## Snowball Fight
 * Location: Speaker UNPreparedness Room
-* Conversation: Tangle Coalbox
+* [Conversation: Tangle Coalbox](conversations.md#tangle-coalbox)
 
 challenge=santamode-snowball
 
 
 ## Naughty/Nice List
 * Location: Santa's Office
+* [Conversation: Tinsel Upatree](conversations.md#tinsel-upatree)
 
 https://download.holidayhackchallenge.com/2020/blockchain.dat
 
 
 ## ARP Shenanigans
 * Location: Roof / NetWars
-* Conversation: Alabaster Snowball
+* [Conversation: Alabaster Snowball](conversations.md#alabaster-snowball)
 
 challenge=santamode-arp
 
