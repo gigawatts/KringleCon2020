@@ -576,6 +576,53 @@ https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)RC4
 ```
 
 
+## CAN-Bus Investigation
+* Location: Roof / NetWars
+* [Conversation: Wunorse Openslae](conversations.md#wunorse-openslae)
+* [Conversation: Wunorse Openslae to Santa](conversations.md#wunorse-openslae-to-santa)
+
+challenge=santamode-canbus
+
+```bash
+$ cat candump.log | awk '{print $3}' | sort | uniq -c | head
+     35 188#00000000
+      2 19B#000000000000   ## Lock?
+      1 19B#00000F000000   ## Unlock?
+      1 244#0000000012
+      1 244#0000000024
+      1 244#0000000036
+      1 244#0000000048
+      1 244#000000005A
+      1 244#000000006C
+      1 244#000000007E
+
+$ cat candump.log | grep 19B                                
+(1608926661.626380) vcan0 244#000000019B
+(1608926662.390980) vcan0 244#000000019B
+(1608926664.626448) vcan0 19B#000000000000  ## Lock?
+(1608926667.837300) vcan0 244#00000019BE
+(1608926671.122520) vcan0 19B#00000F000000  ## Unlock?
+(1608926673.157900) vcan0 244#00000019BE
+(1608926674.092148) vcan0 19B#000000000000  ## Lock?
+
+$ grep "19B#00000F000000" candump.log
+(1608926671.122520) vcan0 19B#00000F000000
+
+$ ./runtoanswer 122520
+Your answer: 122520
+Checking....
+Your answer is correct!
+```
+
+
+## Sleigh CAN-D-Bus
+* Location: Roof / NetWars
+* Conversation: Wunorse Openslae
+
+challenge=candbus
+
+
+
 
 ## Greeting Cards
 * Location: Talks Lobby
@@ -591,9 +638,7 @@ https://greeting-cards.kringlecastle.com/
 
 
 
-## CAN-Bus Investigation
-* Location: Roof / NetWars
-* [Conversation: Wunorse Openslae](conversations.md#wunorse-openslae)
+
 
 
 ## Tag Generator
@@ -626,8 +671,4 @@ https://download.holidayhackchallenge.com/2020/blockchain.dat
 challenge=santamode-arp
 
 
-## Sleigh CAN-D-Bus
-* Location: Roof / NetWars
-* Conversation: Wunorse Openslae
 
-challenge=candbus
