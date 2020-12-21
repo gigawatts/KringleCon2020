@@ -52,6 +52,15 @@ Great work with that! I'm sure you'll be able to help us with more challenges up
 ...
 
 
+### Jingle Ringford to Santa
+
+Santa, it's surprising to see you all the way down here!
+
+I'm used to you being up at the North Pole.
+
+...
+
+
 ## Santa
 * Location: Castle Approach
 
@@ -102,6 +111,12 @@ You might even find one as you approach the castle!
 
 ...
 
+### Jewel Loggins to Santa
+
+Hey Santa, didn't I just see you walking past me?
+
+...
+
 
 ## Shinny Upatree
 * Location: Castle Approach
@@ -136,6 +151,14 @@ He even released a tool for the task - what a guy!
 The package wrapper Santa used is reversible, but it may take you some trying.
 
 Good luck, and thanks for pitching in!
+
+...
+
+### Shinny Upatree to Santa
+
+Hiya hiya, Santa!
+
+Hey, there's issues going on with the tag generator in the Wrapping Room.
 
 ...
 
@@ -174,6 +197,14 @@ You need to power the red, yellow, and green receivers with the right color ligh
 
 ...
 
+## Pepper Minstix to Santa
+
+Howdy Santa!
+
+I've heard that several people have fixed the Santavator, including you. That's great news!
+
+...
+
 
 
 ## Piney Sappington
@@ -195,7 +226,17 @@ I can’t say any more – he might hear!
 
 ...
 
+### Piney Sappington to Santa
 
+Hey Santa!
+
+Are you alright?
+
+You look a little out of it. Perhaps you could use some rest.
+
+You’ve been so busy.
+
+...
 
 
 ## Ribb Bonbowford
@@ -226,6 +267,20 @@ Hey, you know, you might use your JavaScript and HTTP manipulation skills to tak
 
 ...
 
+### Ribb Bonbowford to Santa
+
+Hello Santa!
+
+I've been looking over some of that code you submitted for the Santavator.
+
+It seems to open up a vulnerability in the fingerprint reader.
+
+I'm kind of surprised that you would have submitted such weak code.
+
+Normally your code is cleaner.
+
+...
+
 
 ## Sparkle Redberry
 * Location: Entry
@@ -250,11 +305,25 @@ To get to different floors, you'll need to power the various colored receivers.
 
 ...
 
+### Sparkle Redberry to Santa
+
+Santa, I just saw you get in the Santavator, but you never came back down, but now you're back.
+
+How did you do that?
+
+...
+
 
 ## Ginger Breddie
 * Location: Entry
 
 Hey, I heard from some of the other elves that there's some really crazy things going on with floor one and a half.
+
+...
+
+### Ginger Breddie to Santa
+
+Hey Santa! Did you just come here from floor one and a half?
 
 ...
 
@@ -273,6 +342,14 @@ I hear that one's having some issues, but this one seems A-OK.
 
 ...
 
+### Chimney Scissorsticks to Santa
+
+Hello hello, Santa!
+
+Guests have been having fun generating greeting cards with our machine!
+
+...
+
 
 ## Bow Ninecandle
 * Location: Talks Lobby
@@ -284,6 +361,14 @@ He said he thought of yet another marketing pitch for the North Pole.
 He wants to call it, "The Frostiest Place on Earth!"
 
 What’s with that?
+
+...
+
+### Bow Ninecandle to Santa
+
+Santa, it’s good to see you.
+
+Are you still trying to get the North Pole marketing department to use your new tagline, “The North Pole: The Frostiest Place on Earth?”
 
 ...
 
@@ -315,6 +400,37 @@ Bwahahaha!
 
 ...
 
+#### Jack Frost to Santa
+* Location: Courtyard
+
+Oh, hi Santa.
+
+I'm just wandering around, minding my own business.
+
+Nothing nefarious going on here.
+
+...
+
+* Location: Talks Lobby
+
+Hello Santa. It's you again.
+
+Thank you so much for hosting this event.
+
+I know we've had our issues in the past, but I think we should just bury the hatchet.
+
+...
+
+* Location: Roof / NetWars
+
+Uh-oh! Santa! It’s… YOU!
+
+Hello! How are you doing?
+
+I'm just minding my own business, watching the elves play NetWars.
+
+...
+
 
 ## Bushy Evergreen
 * Location: Talks Lobby
@@ -330,6 +446,68 @@ Isn't there a way to view the human-readable strings in a binary file?
 
 ...
 
+That's it! What a great password...
+
+Oh, this might be a good time to mention another lock in the castle.
+
+Santa asked me to ask you to evaluate the security of our new HID lock.
+
+If ever you find yourself in posession of a Proxmark3, click it in your badge to interact with it.
+
+It's a slick device that can read others' badges!
+
+Hey, you want to help me figure out the light switch too? Those come in handy sometimes.
+
+The password we need is in the lights.conf file, but it seems to be encrypted.
+
+There's another instance of the program and configuration in ~/lab/ you can play around with.
+
+What if we set the user name to an encrypted value?
+
+Wow - that worked? I mean, it worked! Hooray for opportunistic decryption, I guess!
+
+Oh, did I mention that the Proxmark can simulate badges? Cool, huh?
+
+There are lots of references online to help.
+
+In fact, there's [a talk](https://www.youtube.com/watch?v=647U85Phxgo) going on right now!
+
+So hey, if you want, there's one more challenge.
+
+You see, there's a vending machine in there that the speakers like to use sometimes.
+
+Play around with ./vending_machines in the lab folder.
+
+You know what might be worth trying? Delete or rename the config file and run it.
+
+Then you could set the password yourself to AAAAAAAA or BBBBBBBB.
+
+If the encryption is simple code book or rotation ciphers, you'll be able to roll back the original password.
+
+Your lookup table worked - great job! That's one way to defeat a polyalphabetic cipher!
+
+Good luck navigating the rest of the castle.
+
+And that Proxmark thing? Some people scan other people's badges and try those codes at locked doors.
+
+Other people scan one or two and just try to vary room numbers.
+
+Do whatever works best for you!
+
+...
+
+### Bushy Evergreen to Santa
+
+Ohai Santa!
+
+I found someone to test the new HID lock in the Workshop.
+
+I can't wait to see what they find and tell us in their report!
+
+...
+
+
+
 
 ## Alabaster Snowball
 * Location: Roof / NetWars
@@ -342,6 +520,18 @@ I'm watching some elves play NetWars!
 Feel free to try out our Scapy Present Packet Prepper!
 
 If you get stuck, you can help() to see how to get tasks and hints.
+
+...
+
+### Alabaster Snowball to Santa
+
+Hey Santa! You've got to check out our Scapy Present Packet Prepper!
+
+Please work through the whole thing to make sure it's helpful for our guests!
+
+I made it so that players can help() to see how to get tasks and hints.
+
+When you're done, maybe you can help me with this other issue I'm having.
 
 ...
 
@@ -390,6 +580,17 @@ I'll hit him up next time he's nearby.
 
 ...
 
+### Wunorse Openslae to Santa
+
+Hey Santa!
+
+Those tweaks you made to the sled just don’t seem right to me.
+
+I can’t figure out what’s wrong, but maybe you can check it out to fix it.
+
+...
+
+
 
 ## Minty Candycane
 * Location: Workshop
@@ -425,6 +626,30 @@ It's down in the Great Room, but oh, they probably won't let an attendee operate
 
 ...
 
+### Minty Candycane to Santa
+
+Hey there Santa!
+
+I'm working on this regex Present Sorter and making great progress! It's still not quite right though.
+
+I found a [regular expression cheat sheet](https://www.debuggex.com/cheatsheet/regex/javascript) that helps a lot!
+
+Oh and [this regex test interface](https://regex101.com/) has been amazing for testing my adjustments.
+
+Santa, I thought we were limiting access to the room next door with the HID reader.
+
+I thought I should let you know.
+
+Some of the elves in the Great Room are analyzing some issues using Splunk.
+
+I watched the [intro to SOC operations and threat hunting talk](https://www.youtube.com/watch?v=qbIhHhRKQCw) from last year to get ready.
+
+What a great idea to invite Dave Herrald to talk about [tracking adversary emulation](https://www.youtube.com/watch?v=RxVgEFt08kU) in Splunk!
+
+And thank you for the tip on [Cyber Chef](https://gchq.github.io/CyberChef/) for decoding and decrypting data!
+
+...
+
 
 ## Noel Boetie
 * Location: Wrapping Room
@@ -437,6 +662,18 @@ We wrap presents and tag them for delivery here.
 Unfortunately, the tag generator is acting up.
 
 I'm hoping Santa can give me a hand nailing down that flaw.
+
+...
+
+### Noel Boetie to Santa
+
+Welcome to the Wrapping Room, Santa!
+
+The tag generator is acting up.
+
+I feel like the issue has something to do with weird files being uploaded.
+
+Can you help me figure out what's wrong?
 
 ...
 
@@ -455,6 +692,42 @@ Breaking into Santa's office might mean immediate membership on the wrong side o
 
 ...
 
+### Tinsel Upatree to Santa
+
+Howdy Santa! Just guarding the Naughty/Nice list on your desk.
+
+Santa, I don't know if you've heard, but something is very, very wrong...
+
+We tabulated the latest score of the Naughty/Nice Blockchain.
+
+Jack Frost is the nicest being in the world! Jack Frost!?!
+
+As you know, we only really start checking the Naughty/Nice totals as we get closer to the holidays.
+
+Out of nowhere, Jack Frost has this crazy score... positive 4,294,935,958 nice points!
+
+No one has EVER gotten a score that high! No one knows how it happened.
+
+Most of us recall Jack having a NEGATIVE score only a few days ago...
+
+Worse still, his huge positive score seems to have happened way back in March.
+
+Our first thought was that he somehow changed the blockchain - but, as you know, that isn't possible.
+
+We ran a validation of the blockchain and it all checks out.
+
+Even the smallest change to any block should make it invalid.
+
+Blockchains are huge, so we cut a one minute chunk from when Jack's big score registered back in March.
+
+You can get a slice of the Naughty/Nice blockchain on your desk.
+
+You can get some [tools to help you here](https://download.holidayhackchallenge.com/2020/OfficialNaughtyNiceBlockchainEducationPack.zip).
+
+Tangle Coalbox, in the Speaker UNPreparedness room. has been talking with attendees about the issue.
+
+...
+
 
 ## Bubble Lightington
 * Location: Courtyard
@@ -464,6 +737,14 @@ Santa doesn’t seem to be his kind self lately.
 It’s like something’s gotten into him.
 
 Must be stress.
+
+...
+
+### Bubble Lightington to Santa
+
+Hey Santa… I’ve noticed that lately, you’ve been telling everyone to “Stay frosty.”
+
+What’s that all about?
 
 ...
 
@@ -502,6 +783,22 @@ I hear there's a way to extract an ASAR file from the binary, but I haven't look
 
 ...
 
+### Sugarplum Mary to Santa
+
+IT'S SANTA!!!
+
+... oh, hi Santa.
+
+Thanks for all of the Linux lessons, I feel like I'm getting better at working at the command line!
+
+I'm so thankful for all of the Linux help from our guest Santa!
+
+Maybe they can help with the point of sale terminal issue too?
+
+Wow Santa, these guests are amazing! It seems like there's nothing they can't do!
+
+...
+
 
 ## Fitzy Shortstack
 * Location: Kitchen
@@ -529,6 +826,20 @@ You know, Santa really seems to trust Shinny Upatree...
 
 ...
 
+### Fitzy Shortstack to Santa
+
+"Watch Santa walk around," they said.
+
+"See how strange he's behaving," they said.
+
+And you know what? They were right.
+
+Oh, Santa! I didn't see you there!
+
+I hope you're feeling OK.
+
+...
+
 
 ## Holly Evergreen
 * Location: Kitchen
@@ -552,6 +863,16 @@ You'll figure it out, I'm sure!
 
 ...
 
+### Holly Evergreen to Santa
+
+Hi Santa!
+
+If you have a chance, I'd love to get your feedback on the Tag Generator updates!
+
+I'm a little concerned about the file upload feature, but Noel thinks it will be fine.
+
+...
+
 
 ## Angel Candysalt
 * Location: Great Room
@@ -569,76 +890,7 @@ There’s some biometrics, so only Santa and a handful of elves can login.
 
 ...
 
-
----
-
-
-# As Santa
-
-## Jingle Ringford to Santa
-
-Santa, it's surprising to see you all the way down here!
-
-I'm used to you being up at the North Pole.
-
-...
-
-
-## Pepper Minstix to Santa
-
-Howdy Santa!
-
-I've heard that several people have fixed the Santavator, including you. That's great news!
-
-...
-
-
-## Jewel Loggins to Santa
-
-Hey Santa, didn't I just see you walking past me?
-
-...
-
-
-## Shinny Upatree to Santa
-
-Hiya hiya, Santa!
-
-Hey, there's issues going on with the tag generator in the Wrapping Room.
-
-...
-
-
-## Piney Sappington to Santa
-
-Hey Santa!
-
-Are you alright?
-
-You look a little out of it. Perhaps you could use some rest.
-
-You’ve been so busy.
-
-...
-
-
-## Ginger Breddie to Santa
-
-Hey Santa! Did you just come here from floor one and a half?
-
-...
-
-
-## Sparkle Redberry to Santa
-
-Santa, I just saw you get in the Santavator, but you never came back down, but now you're back.
-
-How did you do that?
-
-...
-
-
-## Angel Candysalt to Santa
+### Angel Candysalt to Santa
 
 Hey Santa, there’s some crazy stuff going on that we can see through our Splunk infrastructure.
 
@@ -647,138 +899,26 @@ You better login and see what’s up.
 ...
 
 
-## Fitzy Shortstack to Santa
+## Morcel Nougat
+* Location: UNPreparedness Room
 
-"Watch Santa walk around," they said.
+I'm in the Speaker UNPreparedness room again!
 
-"See how strange he's behaving," they said.
+I just love meeting all the speakers as they come through here!
 
-And you know what? They were right.
+Sure is dark in here, though. Bushy must still be working on the lights.
 
-Oh, Santa! I didn't see you there!
+I'm not scared YOU'RE scared...
 
-I hope you're feeling OK.
+You fixed the lights! Thanks!!
 
-...
+Again, I wasn't scared.
 
-
-## Holly Evergreen to Santa
-
-Hi Santa!
-
-If you have a chance, I'd love to get your feedback on the Tag Generator updates!
-
-I'm a little concerned about the file upload feature, but Noel thinks it will be fine.
+Someone write that down.
 
 ...
 
-
-## Ribb Bonbowford to Santa
-
-Hello Santa!
-
-I've been looking over some of that code you submitted for the Santavator.
-
-It seems to open up a vulnerability in the fingerprint reader.
-
-I'm kind of surprised that you would have submitted such weak code.
-
-Normally your code is cleaner.
-
-...
-
-
-## Bubble Lightington to Santa
-
-Hey Santa… I’ve noticed that lately, you’ve been telling everyone to “Stay frosty.”
-
-What’s that all about?
-
-...
-
-
-## Jack Frost to Santa
-* Location: Courtyard
-
-Oh, hi Santa.
-
-I'm just wandering around, minding my own business.
-
-Nothing nefarious going on here.
-
-...
-
-* Location: Talks Lobby
-
-Hello Santa. It's you again.
-
-Thank you so much for hosting this event.
-
-I know we've had our issues in the past, but I think we should just bury the hatchet.
-
-...
-
-* Location: Roof / NetWars
-
-Uh-oh! Santa! It’s… YOU!
-
-Hello! How are you doing?
-
-I'm just minding my own business, watching the elves play NetWars.
-
-...
-
-
-## Sugarplum Mary to Santa
-
-IT'S SANTA!!!
-
-... oh, hi Santa.
-
-Thanks for all of the Linux lessons, I feel like I'm getting better at working at the command line!
-
-I'm so thankful for all of the Linux help from our guest Santa!
-
-Maybe they can help with the point of sale terminal issue too?
-
-Wow Santa, these guests are amazing! It seems like there's nothing they can't do!
-
-...
-
-
-## Chimney Scissorsticks to Santa
-
-Hello hello, Santa!
-
-Guests have been having fun generating greeting cards with our machine!
-
-...
-
-
-## Bow Ninecandle to Santa
-* Location: Talks Lobby
-
-Santa, it’s good to see you.
-
-Are you still trying to get the North Pole marketing department to use your new tagline, “The North Pole: The Frostiest Place on Earth?”
-
-...
-
-
-## Bushy Evergreen to Santa
-* Location: Talks Lobby
-
-Ohai Santa!
-
-I found someone to test the new HID lock in the Workshop.
-
-I can't wait to see what they find and tell us in their report!
-
-...
-
-
-## Morcel Nougat to Santa
-* Location: Speaker UNPreparedness Room
+### Morcel Nougat to Santa
 
 Yo Santa. I've been doing my job as the official greeter of speakers coming into the SpeakerUNPreparedness room.
 
@@ -787,8 +927,30 @@ I'm amazed that we have THOUSANDS of speakers coming through here!
 ...
 
 
-## Tangle Coalbox to Santa
-* Location: Speaker UNPreparedness Room
+## Tangle Coalbox
+* Location: UNPreparedness Room
+
+Howdy gumshoe. I'm Tangle Coalbox, resident sleuth in the North Pole.
+
+If you're up for a challenge, I'd ask you to look at this here Snowball Game.
+
+We tested an earlier version this summer, but that one had web socket vulnerabilities.
+
+This version seems simple enough on the Easy level, but the Impossible level is, well...
+
+I'd call it impossible, but I just saw someone beat it! I'm sure something's off here.
+
+Could it be that the name a player provides has some connection to how the forts are laid out?
+
+Knowing that, I can see how an elf might feed their Hard name into an Easy game to cheat a bit.
+
+But on Impossible, the best you get are rejected player names in the page comments. Can you use those somehow?
+
+Check out Tom Liston's talk for more info, if you need it.
+
+...
+
+### Tangle Coalbox to Santa
 
 Howdy Boss. You look a tad flushed.
 
@@ -815,120 +977,8 @@ Thanks for all the tips and encouragement Santa!
 ...
 
 
-## Tinsel Upatree to Santa
-* Location: Santa's Office
-* [Terminal: Naughty/Nice List](terminals.md#naughty-nice-list)
-
-Howdy Santa! Just guarding the Naughty/Nice list on your desk.
-
-Santa, I don't know if you've heard, but something is very, very wrong...
-
-We tabulated the latest score of the Naughty/Nice Blockchain.
-
-Jack Frost is the nicest being in the world! Jack Frost!?!
-
-As you know, we only really start checking the Naughty/Nice totals as we get closer to the holidays.
-
-Out of nowhere, Jack Frost has this crazy score... positive 4,294,935,958 nice points!
-
-No one has EVER gotten a score that high! No one knows how it happened.
-
-Most of us recall Jack having a NEGATIVE score only a few days ago...
-
-Worse still, his huge positive score seems to have happened way back in March.
-
-Our first thought was that he somehow changed the blockchain - but, as you know, that isn't possible.
-
-We ran a validation of the blockchain and it all checks out.
-
-Even the smallest change to any block should make it invalid.
-
-Blockchains are huge, so we cut a one minute chunk from when Jack's big score registered back in March.
-
-You can get a slice of the Naughty/Nice blockchain on your desk.
-
-You can get some [tools to help you here](https://download.holidayhackchallenge.com/2020/OfficialNaughtyNiceBlockchainEducationPack.zip).
-
-Tangle Coalbox, in the Speaker UNPreparedness room. has been talking with attendees about the issue.
-
-...
-
-
-## Eve Snowshoes to Santa
-* Location: Santa's Balcony
-
-Hey, Santa!
-
-...
-
-
-## Alabaster Snowball to Santa
-* Location: Roof / NetWars
-
-Hey Santa! You've got to check out our Scapy Present Packet Prepper!
-
-Please work through the whole thing to make sure it's helpful for our guests!
-
-I made it so that players can help() to see how to get tasks and hints.
-
-When you're done, maybe you can help me with this other issue I'm having.
-
-...
-
-
-## Wunorse Openslae to Santa
-* Location: Roof / NetWars
-
-Hey Santa!
-
-Those tweaks you made to the sled just don’t seem right to me.
-
-I can’t figure out what’s wrong, but maybe you can check it out to fix it.
-
-...
-
-
-## Minty Candycane to Santa
-* Location: Workshop
-
-Hey there Santa!
-
-I'm working on this regex Present Sorter and making great progress! It's still not quite right though.
-
-I found a [regular expression cheat sheet](https://www.debuggex.com/cheatsheet/regex/javascript) that helps a lot!
-
-Oh and [this regex test interface](https://regex101.com/) has been amazing for testing my adjustments.
-
-Santa, I thought we were limiting access to the room next door with the HID reader.
-
-I thought I should let you know.
-
-Some of the elves in the Great Room are analyzing some issues using Splunk.
-
-I watched the [intro to SOC operations and threat hunting talk](https://www.youtube.com/watch?v=qbIhHhRKQCw) from last year to get ready.
-
-What a great idea to invite Dave Herrald to talk about [tracking adversary emulation](https://www.youtube.com/watch?v=RxVgEFt08kU) in Splunk!
-
-And thank you for the tip on [Cyber Chef](https://gchq.github.io/CyberChef/) for decoding and decrypting data!
-
-...
-
-
-## Noel Boetie to Santa
-* Location: Wrapping Room
-
-Welcome to the Wrapping Room, Santa!
-
-The tag generator is acting up.
-
-I feel like the issue has something to do with weird files being uploaded.
-
-Can you help me figure out what's wrong?
-
-...
-
-
 ## Release the Snacken
+* Location: UNPreparedness Room
 
 HI. I AM OUT OF ORDER
 
@@ -945,5 +995,21 @@ We're outta cinnamon rolls.
 We're outta apple fritters.
 
 We're outta bear... wait a minute...
+
+...
+
+WE'RE OUTTA BEAR CLAWS.
+
+All I've got are these Portal Candies. Enjoy!
+
+Can I interest you in a box of weasles, by chance?
+
+...
+
+
+## Eve Snowshoes to Santa
+* Location: Santa's Balcony
+
+Hey, Santa!
 
 ...
