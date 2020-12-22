@@ -557,6 +557,24 @@ When you're done, maybe you can help me with this other issue I'm having.
 
 ...
 
+Oh, I see the Scapy Present Packet Prepper has already been completed!
+
+Now you can help me get access to this machine.
+
+It seems that some interloper here at the North Pole has taken control of the host.
+
+We need to regain access to some important documents associated with Kringle Castle.
+
+Maybe we should try a machine-in-the-middle attack?
+
+That could give us access to manipulate DNS responses.
+
+But we'll still need to cook up something to change the HTTP response.
+
+I'm sure glad you're here Santa.
+
+...
+
 
 ## Wunorse Openslae
 * Location: Roof / NetWars
