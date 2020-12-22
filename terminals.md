@@ -715,19 +715,6 @@ e if you can figure out what's going on"
 ```
 
 
-## Greeting Cards
-* Location: Talks Lobby
-* [Conversation: Chimney Scissorsticks](conversations.md#chimney-scissorsticks)
-
-https://greeting-cards.kringlecastle.com/
-
-
-
-## Scapy Prepper
-* Location: Roof / NetWars
-* [Conversation: Alabaster Snowball](conversations.mds#alabaster-snowball)
-
-
 ## Tag Generator
 * Location: Wrapping Room
 * [Conversation: Noel Boetie](conversations.md#noel-boetie)
@@ -775,6 +762,257 @@ HOME=/home/app
 Yes, yes we can :)
 
 
+## Scapy Prepper
+* Location: Roof / NetWars
+* [Conversation: Alabaster Snowball](conversations.mds#alabaster-snowball)
+
+```
+>>> task.get()
+Welcome to the "Present Packet Prepper" interface! The North Pole could use your help prep
+aring present packets for shipment.
+Start by running the task.submit() function passing in a string argument of 'start'.
+Type task.help() for help on this question.
+>>>
+
+>>> task.submit('start')
+Correct! adding a () to a function or class will execute it. Ex - FunctionExecuted()
+
+
+Submit the class object of the scapy module that sends packets at layer 3 of the OSI model.
+>>> task.submit(send)
+Correct! The "send" scapy class will send a crafted scapy packet out of a network interface.
+
+
+Submit the class object of the scapy module that sniffs network packets and returns those packets in a list.
+
+>>> task.submit(sniff)
+Correct! the "sniff" scapy class will sniff network traffic and return these packets in a list.
+
+
+Submit the NUMBER only from the choices below that would successfully send a TCP packet and then return the first sniffed response packet to be stored in a variable named "pkt":
+1. pkt = sr1(IP(dst="127.0.0.1")/TCP(dport=20))
+2. pkt = sniff(IP(dst="127.0.0.1")/TCP(dport=20))
+3. pkt = sendp(IP(dst="127.0.0.1")/TCP(dport=20))
+
+>>> task.submit(1)
+Correct! sr1 will send a packet, then immediately sniff for a response packet.
+
+Submit the class object of the scapy module that can read pcap or pcapng files and return a list of packets.
+Look for "Read a pcap or pcapng file and return a packet list" at the link ( https://scapy.readthedocs.io/en/latest/api/scapy.utils.html )
+
+>>> task.submit(rdpcap)
+Correct! the "rdpcap" scapy class can read pcap files.
+
+The variable UDP_PACKETS contains a list of UDP packets. Submit the NUMBER only from the choices below that correctly prints a summary of UDP_PACKETS:
+1. UDP_PACKETS.print()
+2. UDP_PACKETS.show()
+3. UDP_PACKETS.list()
+
+>>> task.submit(2)
+Correct! .show() can be used on lists of packets AND on an individual packet.
+
+Submit only the first packet found in UDP_PACKETS.
+You can specify an item from a list using "list_var_name[num]" where "num" is the item number you want starting at 0.
+
+
+>>> task.submit(UDP_PACKETS[0])
+Correct! Scapy packet lists work just like regular python lists so packets can be accessed by their position in the list starting at offset 0.
+
+Submit only the entire TCP layer of the second packet in TCP_PACKETS.
+If you had a packet stored in a variable named pkt, you could access its IP layer using "pkt[IP]"
+
+>>> task.submit( TCP_PACKETS[1][TCP] )
+Correct! Most of the major fields like Ether, IP, TCP, UDP, ICMP, DNS, DNSQR, DNSRR, Raw, etc... can be accessed this way. Ex - pkt[IP][TCP]
+
+Change the source IP address of the first packet found in UDP_PACKETS to 127.0.0.1 and then submit this modified packet
+
+>>> task.submit( UDP_PACKETS[1] )
+Correct! You can change ALL scapy packet attributes using this method.
+
+Submit the password "task.submit('elf_password')" of the user alabaster as found in the packet list TCP_PACKETS.
+
+You can access each packets Raw payload using TCP_PACKETS[0][Raw].load only incrementing 0 each packet. (if that particular packet has a payload)
+
+>>> TCP_PACKETS.show()
+0000 Ether / IP / TCP 192.168.0.114:1137 > 192.168.0.193:ftp S
+0001 Ether / IP / TCP 192.168.0.193:ftp > 192.168.0.114:1137 SA
+0002 Ether / IP / TCP 192.168.0.114:1137 > 192.168.0.193:ftp A
+0003 Ether / IP / TCP 192.168.0.193:ftp > 192.168.0.114:1137 PA / Raw
+0004 Ether / IP / TCP 192.168.0.114:1137 > 192.168.0.193:ftp PA / Raw
+0005 Ether / IP / TCP 192.168.0.193:ftp > 192.168.0.114:1137 PA / Raw
+0006 Ether / IP / TCP 192.168.0.114:1137 > 192.168.0.193:ftp PA / Raw
+0007 Ether / IP / TCP 192.168.0.193:ftp > 192.168.0.114:1137 PA / Raw
+
+>>> task.submit( TCP_PACKETS[6][Raw].load )
+Correct! Here is some really nice list comprehension that will grab all the raw payloads from tcp packets:
+[pkt[Raw].load for pkt in TCP_PACKETS if Raw in pkt]
+
+The ICMP_PACKETS variable contains a packet list of several icmp echo-request and icmp echo-reply packets. Submit only the ICMP chksum value from the second packet in the ICMP_PACKETS list.
+
+>>> ICMP_PACKETS[1].show()
+###[ Ethernet ]### 
+  dst       = 00:0c:29:d0:96:b3
+  src       = 00:50:56:f9:54:66
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 2585
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = icmp
+     chksum    = 0xe69b
+     src       = 10.21.23.12
+     dst       = 10.21.23.12
+     \options   \
+###[ ICMP ]### 
+        type      = echo-reply
+        code      = 0
+        chksum    = 0x4c44
+        id        = 0x6d38
+        seq       = 0x1
+        unused    = ''
+###[ Raw ]### 
+           load      = 'L=\xa7^\x00\x00\x00\x00\x88\x13\x0c\x00\x00\x00\x00\x00\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+You could get the ICMP id value of the 3rd packet using ICMP_PACKETS[2][ICMP].id .
+
+>>> task.submit( ICMP_PACKETS[1][ICMP].chksum )
+Correct! You can access the ICMP chksum value from the second packet using ICMP_PACKETS[1][ICMP].chksum .
+
+Submit the number of the choice below that would correctly create a ICMP echo request packet with a destination IP of 127.0.0.1 stored in the variable named "pkt"
+1. pkt = Ether(src='127.0.0.1')/ICMP(type="echo-request")
+2. pkt = IP(src='127.0.0.1')/ICMP(type="echo-reply")
+3. pkt = IP(dst='127.0.0.1')/ICMP(type="echo-request")
+
+>>> task.submit(3)
+Correct! Once you assign the packet to a variable named "pkt" you can then use that variable to send or manipulate your created packet.
+
+Create and then submit a UDP packet with a dport of 5000 and a dst IP of 127.127.127.127. (all other packet attributes can be unspecified)
+
+Here is a good link on creating packets with scapy ( https://0xbharath.github.io/art-of-packet-crafting-with-scapy/scapy/creating_packets/index.html )
+
+>>> task.submit( IP(dst='127.127.127.127')/UDP(dport=5000) )
+Correct! Your UDP packet creation should look something like this:
+pkt = IP(dst="127.127.127.127")/UDP(dport=5000)
+task.submit(pkt)
+
+Create and then submit a UDP packet with a dport of 53, a dst IP of 127.2.3.4, and is a DNS query with a qname of "elveslove.santa". (all other packet attributes can be unspecified)
+
+You can reference UDP_PACKETS[0] for a similar packet but dont use this exact packet but create a new one. You can also reference this link ( https://0xbharath.github.io/art-of-packet-crafting-with-scapy/scapy/creating_packets/index.html )
+
+>>> UDP_PACKETS[0].show()
+###[ Ethernet ]### 
+  dst       = 00:c0:9f:32:41:8c
+  src       = 00:e0:18:b1:0c:ad
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 60
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x6543
+     src       = 192.168.170.8
+     dst       = 192.168.170.20
+     \options   \
+###[ UDP ]### 
+        sport     = 32795
+        dport     = domain
+        len       = 40
+        chksum    = 0xaf61
+###[ DNS ]### 
+           id        = 30144
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'www.elves.rule.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+
+>>> task.submit( IP(dst='127.2.3.4')/UDP(dport=53)/DNS(qd=DNSQR(qname='elveslove.santa'))
+... )
+Correct! Your UDP packet creation should look something like this:
+pkt = IP(dst="127.2.3.4")/UDP(dport=53)/DNS(rd=1,qd=DNSQR(qname="elveslove.santa"))
+task.submit(pkt)
+
+The variable ARP_PACKETS contains an ARP request and response packets. The ARP response (the second packet) has 3 incorrect fields in the ARP layer. Correct the second packet in ARP_PACKETS to be a proper ARP response and then task.submit(ARP_PACKETS) for inspection.
+
+The three fields in ARP_PACKETS[1][ARP] that are incorrect are op, hwsrc, and hwdst. A sample ARP pcap can be referenced at https://www.cloudshark.org/captures/e4d6ea732135. You can run the "reset_arp()" function to reset the ARP packets back to their original form.
+
+
+>>> ARP_PACKETS[0].show()
+###[ Ethernet ]### 
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 00:16:ce:6e:8b:24
+  type      = ARP
+###[ ARP ]### 
+     hwtype    = 0x1
+     ptype     = IPv4
+     hwlen     = 6
+     plen      = 4
+     op        = who-has
+     hwsrc     = 00:16:ce:6e:8b:24
+     psrc      = 192.168.0.114
+     hwdst     = 00:00:00:00:00:00
+     pdst      = 192.168.0.1
+
+
+>>> ARP_PACKETS[1].show()
+###[ Ethernet ]### 
+  dst       = 00:16:ce:6e:8b:24
+  src       = 00:13:46:0b:22:ba
+  type      = ARP
+###[ ARP ]### 
+     hwtype    = 0x1
+     ptype     = IPv4
+     hwlen     = 6
+     plen      = 4
+     op        = None
+     hwsrc     = ff:ff:ff:ff:ff:ff
+     psrc      = 192.168.0.1
+     hwdst     = ff:ff:ff:ff:ff:ff
+     pdst      = 192.168.0.114
+###[ Padding ]### 
+        load      = '\xc0\xa8\x00r'
+
+
+ARP_PACKETS[1][ARP].op = 0x2
+ARP_PACKETS[1][ARP].hwdst = '00:16:ce:6e:8b:24'
+ARP_PACKETS[1][ARP].hwsrc = '00:13:46:0b:22:ba'
+
+
+>>> task.submit( ARP_PACKETS )
+Great, you prepared all the present packets!
+
+Congratulations, all pretty present packets properly prepared for processing!
+```
+
+
 ## ARP Shenanigans
 * Location: Roof / NetWars
 * [Conversation: Alabaster Snowball](conversations.md#alabaster-snowball)
@@ -782,6 +1020,11 @@ Yes, yes we can :)
 challenge=santamode-arp
 
 
+## Greeting Cards
+* Location: Talks Lobby
+* [Conversation: Chimney Scissorsticks](conversations.md#chimney-scissorsticks)
+
+https://greeting-cards.kringlecastle.com/
 
 
 ## Snowball Fight
