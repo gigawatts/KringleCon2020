@@ -665,6 +665,11 @@ I'm hoping Santa can give me a hand nailing down that flaw.
 
 ...
 
+Yay! Santa came and helped me with the tag generator!
+
+...
+
+
 ### Noel Boetie to Santa
 
 Welcome to the Wrapping Room, Santa!
@@ -674,6 +679,12 @@ The tag generator is acting up.
 I feel like the issue has something to do with weird files being uploaded.
 
 Can you help me figure out what's wrong?
+
+...
+
+Yay! You found the flaw!
+
+We'll work on fixing it.
 
 ...
 
