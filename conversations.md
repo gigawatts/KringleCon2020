@@ -863,6 +863,20 @@ You'll figure it out, I'm sure!
 
 ...
 
+See? I knew you could to it!
+
+I wonder, could we figure out the problem with the Tag Generator if we can get the source code?
+
+Can you figure out the path to the script?
+
+I've discovered that enumerating all endpoints is a really good idea to understand an application's functionality.
+
+Sometimes I find the Content-Type header hinders the browser more than it helps.
+
+If you find a way to execute code blindly, maybe you can redirect to a file then download that file?
+
+...
+
 ### Holly Evergreen to Santa
 
 Hi Santa!
