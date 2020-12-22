@@ -663,6 +663,10 @@ Brake  080 Contains __ __ __ FF __ __
 * Location: Kitchen
 * [Conversation: Holly Evergreen](conversations.md#holly-evergreen)
 
+challenge=redis
+
+https://book.hacktricks.xyz/pentesting/6379-pentesting-redis
+
 First, use the maint cmd "CONFIG GET \*" to get the password
 
 ```bash
