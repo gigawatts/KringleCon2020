@@ -775,6 +775,15 @@ HOME=/home/app
 Yes, yes we can :)
 
 
+## ARP Shenanigans
+* Location: Roof / NetWars
+* [Conversation: Alabaster Snowball](conversations.md#alabaster-snowball)
+
+challenge=santamode-arp
+
+
+
+
 ## Snowball Fight
 * Location: Speaker UNPreparedness Room
 * [Conversation: Tangle Coalbox](conversations.md#tangle-coalbox)
@@ -787,13 +796,4 @@ challenge=santamode-snowball
 * [Conversation: Tinsel Upatree](conversations.md#tinsel-upatree)
 
 https://download.holidayhackchallenge.com/2020/blockchain.dat
-
-
-## ARP Shenanigans
-* Location: Roof / NetWars
-* [Conversation: Alabaster Snowball](conversations.md#alabaster-snowball)
-
-challenge=santamode-arp
-
-
 
