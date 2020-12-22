@@ -523,6 +523,28 @@ If you get stuck, you can help() to see how to get tasks and hints.
 
 ...
 
+Great job! Thanks!
+
+Those skills might be useful to you later on!
+
+I've been trying those skills out myself on this other terminal.
+
+I'm pretty sure I can use tcpdump to sniff some packets.
+
+Then I'm going to try a machine-in-the-middle attack.
+
+Next, I'll spoof a DNS response to point the host to my terminal.
+
+Then I want to respond to its HTTP request with something I'll cook up.
+
+I'm almost there, but I can't quite get it. I could use some help!
+
+For privacy reasons though, I can't let you access this other terminal.
+
+I do plan to ask Santa for a hand with it next time he's nearby, though.
+
+...
+
 ### Alabaster Snowball to Santa
 
 Hey Santa! You've got to check out our Scapy Present Packet Prepper!
