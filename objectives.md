@@ -62,7 +62,9 @@ Solution in [Terminal: Sleigh CAN-D-Bus](terminals.md#sleigh-can-d-bus)
 ## 08 - Broken Tag Generator 🎄🎄🎄🎄
 *Help Noel Boetie fix the [Tag Generator](https://tag-generator.kringlecastle.com/) in the Wrapping Room. What value is in the environment variable GREETZ? Talk to Holly Evergreen in the kitchen for help with this.*
 
-**Answer:**
+Solution in [Terminal: Tag Generator](terminals.md#tag-generator)
+
+**Answer:** JackFrostWasHere
 
 
 ## 09 - ARP Shenanigans 🎄🎄🎄🎄
