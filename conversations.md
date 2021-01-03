@@ -19,6 +19,13 @@
 * [Bubble Lightington](#bubble-lightington)
 * [Sugarplum Mary](#sugarplum-mary)
 * [Fitzy Shortstack](#fitzy-shortstack)
+* [Holly Evergreen](#holly-evergreen)
+* [Angel Candysalt](#angel-candysalt)
+* [Morcel Nougat](#morcel-nougat)
+* [Tangle Coalbox](#tangle-coalbox)
+* [Release the Snacken](#release-the-snacken)
+* [Eve Snowshoes](#eve-snowshoes)
+
 
 # As Attendee
 
@@ -731,7 +738,7 @@ We'll work on fixing it.
 
 ## Tinsel Upatree
 * Location: Santa's Office
-* [Terminal: Naughty/Nice List](terminals.md#naughty-nice-list)
+* [Terminal: Naughty/Nice List](terminals.md#naughtynice-list)
 
 GOSHGOLLY
 
