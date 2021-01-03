@@ -782,7 +782,7 @@ You can get a slice of the Naughty/Nice blockchain on your desk.
 
 You can get some [tools to help you here](https://download.holidayhackchallenge.com/2020/OfficialNaughtyNiceBlockchainEducationPack.zip).
 
-Tangle Coalbox, in the Speaker UNPreparedness room. has been talking with attendees about the issue.
+[Tangle Coalbox](#tangle-coalbox), in the Speaker UNPreparedness room. has been talking with attendees about the issue.
 
 ...
 
